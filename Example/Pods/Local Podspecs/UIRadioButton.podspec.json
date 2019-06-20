@@ -1,0 +1,25 @@
+{
+  "name": "UIRadioButton",
+  "version": "0.1.5",
+  "summary": "The Most Simple Radio Button.",
+  "description": "Because UIKit didn't ship it.",
+  "homepage": "https://github.com/fitsyu/UIRadioButton",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fitsyu": "fitsyu2@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/fitsyu/UIRadioButton.git",
+    "tag": "0.1.5"
+  },
+  "social_media_url": "https://twitter.com/fitsyu",
+  "swift_versions": "5.0",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "UIRadioButton/Classes/**/*",
+  "swift_version": "5.0"
+}

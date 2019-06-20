@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NSelectViewCheckBox" customModule="NSelectViewCheckBox" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionView" destination="Riv-XK-pqn" id="ExU-Zk-XQO"/>
+                <outlet property="titleLabel" destination="ggj-67-QHP" id="wcr-xH-Rsh"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="348" height="175"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ggj-67-QHP">
+                    <rect key="frame" x="0.0" y="8" width="340" height="21"/>
+                    <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wol-ek-ZaR" userLabel="Line">
+                    <rect key="frame" x="0.0" y="33" width="348" height="1"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="dmS-kL-S1R"/>
+                    </constraints>
+                </view>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Riv-XK-pqn">
+                    <rect key="frame" x="0.0" y="42" width="348" height="133"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="2" minimumInteritemSpacing="2" id="hdh-aw-YCp">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+            </subviews>
+            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="Riv-XK-pqn" firstAttribute="top" secondItem="wol-ek-ZaR" secondAttribute="bottom" constant="8" id="3Oh-jO-ud7"/>
+                <constraint firstItem="wol-ek-ZaR" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Azz-Uc-aI8"/>
+                <constraint firstAttribute="trailing" secondItem="Riv-XK-pqn" secondAttribute="trailing" id="E96-6S-65X"/>
+                <constraint firstAttribute="trailing" secondItem="wol-ek-ZaR" secondAttribute="trailing" id="Ogv-ta-mjn"/>
+                <constraint firstItem="Riv-XK-pqn" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="WqR-g7-aU9"/>
+                <constraint firstAttribute="trailing" secondItem="ggj-67-QHP" secondAttribute="trailing" priority="750" constant="8" id="WtO-HC-by3"/>
+                <constraint firstItem="wol-ek-ZaR" firstAttribute="top" secondItem="ggj-67-QHP" secondAttribute="bottom" constant="4" id="Zdb-mW-RwE"/>
+                <constraint firstItem="ggj-67-QHP" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="jh0-CO-30H"/>
+                <constraint firstAttribute="bottom" secondItem="Riv-XK-pqn" secondAttribute="bottom" id="tHs-hC-Bg4"/>
+                <constraint firstItem="ggj-67-QHP" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="whG-cJ-0n4"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="89.855072463768124" y="121.54017857142857"/>
+        </view>
+    </objects>
+</document>

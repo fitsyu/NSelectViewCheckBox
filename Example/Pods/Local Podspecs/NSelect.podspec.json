@@ -1,0 +1,24 @@
+{
+  "name": "NSelect",
+  "version": "0.1.0",
+  "summary": "Select one or more option",
+  "description": "let myQuestion = NSelect() // or use NSelect(options: [String]) to make it ready immadiately\n\n// setup\nmyQuestion.title = \"Ideal workplace for you\" // for me\nmyQuestion.options = [ \"Calm\", \"Noisy\", \"Peaceful\", \"Hectic\", \"Fun\" ] // for me\nmyQuestion.defaultSelections = [ \"Calm\" ] // for you incase no from me\nmyQuestion.mode = NSelectMode.single // | .multiple | .min(2) | .max(3)\n\n// the core part\nmyQuestion.select(option: \"fun\")\nmyQuestion.select(options: \"fun\", \"hectic\")\nmyQuestion.deselect(option: \"hectic\")\nmyQuestion.selections() //: [String] // for you\n\n// troubleshooting\n_ = myQuestion.error //: Error?\nmyQuestion.isReady //: Bool\n\n// it's just a passive component\n// just give it a NSelect and it will do presentation logic to user\n  let myQuestionView: NSelectView = DefaultNSelectView()\n  myQuestionView.backing = myQuestion\n  myQuestionView.present()\n  \n  // get notified about select/deselect event\n  myQuestionView.delegate = ...\n  \n  // at any point in time\n  // we can get about user selection this way\n  if let userSelections = myQuestion.selections() { // or myQuestionView.backing.selections\n    \n  }",
+  "homepage": "https://github.com/fitsyu/NSelect",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fitsyu": "fitsyu2@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/fitsyu/NSelect.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.3"
+  },
+  "source_files": "NSelect/Classes/**/*",
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
+}

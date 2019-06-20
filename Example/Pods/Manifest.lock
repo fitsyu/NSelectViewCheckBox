@@ -1,0 +1,56 @@
+PODS:
+  - Nimble (8.0.2)
+  - NSelect (0.1.0)
+  - NSelectViewCheckBox (0.1.0):
+    - NSelect
+    - UICheckbox.Swift
+    - UIRadioButton
+  - Quick (2.1.0)
+  - UICheckbox.Swift (1.0.0)
+  - UIRadioButton (0.1.5)
+
+DEPENDENCIES:
+  - Nimble
+  - NSelect (from `https://github.com/fitsyu/NSelect.git`)
+  - NSelectViewCheckBox (from `../`)
+  - Quick
+  - UICheckbox.Swift (from `https://github.com/fitsyu/UICheckbox.Swift.git`)
+  - UIRadioButton (from `https://github.com/fitsyu/UIRadioButton.git`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Nimble
+    - Quick
+
+EXTERNAL SOURCES:
+  NSelect:
+    :git: https://github.com/fitsyu/NSelect.git
+  NSelectViewCheckBox:
+    :path: "../"
+  UICheckbox.Swift:
+    :git: https://github.com/fitsyu/UICheckbox.Swift.git
+  UIRadioButton:
+    :git: https://github.com/fitsyu/UIRadioButton.git
+
+CHECKOUT OPTIONS:
+  NSelect:
+    :commit: 5ffe27bb422114391a4e4227f90daa3f9a4c3c38
+    :git: https://github.com/fitsyu/NSelect.git
+  UICheckbox.Swift:
+    :commit: 83a66b7d08a3ea066c8fdf2eb15f5835c8fcc563
+    :git: https://github.com/fitsyu/UICheckbox.Swift.git
+  UIRadioButton:
+    :commit: d03003bf6c6383a37423b4c120a911f44922fe76
+    :git: https://github.com/fitsyu/UIRadioButton.git
+
+SPEC CHECKSUMS:
+  Nimble: 622629381bda1dd5678162f21f1368cec7cbba60
+  NSelect: 4229074c635da63b3d3b94f7ec0081976b6505fb
+  NSelectViewCheckBox: cb20876c744d0cbab11c468c880d4b815ce23903
+  Quick: 4be43f6634acfa727dd106bdf3929ce125ffa79d
+  UICheckbox.Swift: ac5eb01cd4ec1fbc4f4051405e10b2f0e4c887ce
+  UIRadioButton: 8bcdfb1eb961a2d214cfb101ea8d2339f8a90ead
+
+PODFILE CHECKSUM: bb876acad0457081f5ac8f70f509ce9709c3fd1d
+
+COCOAPODS: 1.7.2

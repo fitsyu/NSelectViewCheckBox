@@ -1,0 +1,6 @@
+framework module NSelect {
+  umbrella header "NSelect-umbrella.h"
+
+  export *
+  module * { export * }
+}

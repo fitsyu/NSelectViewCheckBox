@@ -1,0 +1,38 @@
+{
+  "name": "NSelectViewCheckBox",
+  "version": "0.1.0",
+  "summary": "A short description of NSelectViewCheckBox.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/fitsyu/NSelectViewCheckBox",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fitsyu": "fitsyu2@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/fitsyu/NSelectViewCheckBox.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.3"
+  },
+  "source_files": "NSelectViewCheckBox/Classes/**/*",
+  "resource_bundles": {
+    "NSelectViewCheckBox": [
+      "NSelectViewCheckBox/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "NSelect": [
+
+    ],
+    "UIRadioButton": [
+
+    ],
+    "UICheckbox.Swift": [
+
+    ]
+  }
+}

@@ -1,0 +1,2356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		014A4817351C11019FB222EA16E73787 /* XCTestSuite+QuickTestSuiteBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFF534938AC5EA5A2380B98718714AF /* XCTestSuite+QuickTestSuiteBuilder.m */; };
+		0244025E5F4CE4060978D034CF740810 /* BeAnInstanceOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FAD3986DEA2A020DB4808BE94042C5 /* BeAnInstanceOf.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		066719F150BB45B3E4430CDF5FB1403A /* BeVoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = E195344BC5AFAE8C8295A18B4FD124B4 /* BeVoid.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		07706BE58F33FE09DE03B97AB2F972C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8503B2AFE4FD9D644838EB2CCB2098AD /* Foundation.framework */; };
+		09670BDC554A2BD2DA6ECBFECCF48DDE /* Stringers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC75411AD50B0E969E6BE888562DAFB /* Stringers.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		0BAE0AFD3073EF4AAC1F319DB1606A49 /* HooksPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB4040387C82519FA65F4FB5A407AD4 /* HooksPhase.swift */; };
+		0CCF72769464C214E6268ACFCFE1EBFD /* CwlCatchException.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F1F27819D169D98BE2FA4F58E956AD /* CwlCatchException.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		0DB85B6FB6AE28DA34DE79DDDFD6A962 /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC89783C115E6BA9BF7D6BFD498D794D /* World.swift */; };
+		0FA2EC5D5EC079A3059EA23643566309 /* NSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E0CF9C7997D1C0DE621CC51C302F95 /* NSelect.swift */; };
+		10485AF741B65205DBE44831B46C5237 /* QuickTestSuite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A7FEB349EA948A289702FE248C5574 /* QuickTestSuite.swift */; };
+		118E557837BEC5B3B11AAD06AF8CD2C9 /* NSelect-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C90521C818C62B06DB5ACF5FAF5D16DE /* NSelect-dummy.m */; };
+		11BB30DF8A2490E38059737170227988 /* Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48D7CA5ADDF8EC29CFE74BFDD5487AB /* Functional.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		123A3221A5BC50497EE0F7A3F0694B2F /* XCTestObservationCenter+Register.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA6484610267CF51A308E3ACEAAD55B /* XCTestObservationCenter+Register.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		1619CC5DF835D29CFE745C443B8728DD /* BeLessThanOrEqual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6604E58F9E89BF90D1326B149F36B85C /* BeLessThanOrEqual.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		177A72071D7E65A9C83C7ECF10C04E9D /* UIRadioButtonGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA88C1D3AADE0D9E187AE615E0BD36F /* UIRadioButtonGroup.swift */; };
+		17A60050B2AC439E06E7EE6F41498D68 /* ErrorUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520975D8A1D9B0219CC3B4DDC746E22B /* ErrorUtility.swift */; };
+		19756A88FFFBE4639A1FB65D8367C01B /* Expectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6DBB7629DD13AC99A0D9031ED99663 /* Expectation.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		19BA8AF46D9CC49E3E2CEDCAF6354442 /* CwlPreconditionTesting.h in Headers */ = {isa = PBXBuildFile; fileRef = 235407FF0E618012B9522D1DBC8A3433 /* CwlPreconditionTesting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A42C3390A0AD0F6F1C58237517D463B /* CwlDarwinDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AA458CC3BA8552103335DEC96CD110 /* CwlDarwinDefinitions.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		1B3403A0E001B55D67F0C95E54C8C58D /* UIRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204924CA60300987534699B22C63C119 /* UIRadioButton.swift */; };
+		1E33FCBEF60178365211641F986F212D /* PostNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15E93209230FE869DB0570289E1C77C /* PostNotification.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		1F64B2056A0CA58BF41B575E90531E1B /* QuickSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA6461AAB2E3A6B1F0C7DE958505FE4 /* QuickSpec.m */; };
+		221ED892E5138A00F3CDF540E914519D /* CwlCatchException.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E8980EDA22FD260D604EAB0BA4B6906 /* CwlCatchException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2396790A402C07B516B64FA83B004FEF /* NMBObjCMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F64B5DA74604CFE4C61AEDBD3F9A4 /* NMBObjCMatcher.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		23B929016459822A57FF4F84DC6000B5 /* Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE64E8B87AF358E282F17345E7F2F3F /* Async.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		25390BCB7E708FE600AA7903982238CD /* BeginWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBDAFB648521A6E1ED2F6DEDB861C5B /* BeginWith.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		2DBF35E81CA291E0A68E593F2AB4321C /* ThrowError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE225C23AF912A4E4CE0B3361959ACE0 /* ThrowError.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		2DCC6A33347B8C66F62C3F434C16A2FB /* NSelectViewCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD07D4696FFEC3BCCEC23235D232A07 /* NSelectViewCheckBox.swift */; };
+		2E8E8759CD6EE4EACB4E3902A244F69B /* World+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73C7392987F95E09642B3452A688A59 /* World+DSL.swift */; };
+		2F5DD8E51F5E37611F72EAA6D30DD1E2 /* FailureMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5B331691A4C1C080EC70E0F0FC27B2 /* FailureMessage.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		31C781D9B2FB24F1C63EF944A8D10665 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C6A8956556846A3F7A3316CAA5347F /* Errors.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		325DE03B3B111B85F78DB900A84EC7C8 /* NMBStringify.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C1E5570C071B54C5D1CF071449ACEA /* NMBStringify.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		33A73C721E2CD8AA8D1029AEF325CC2F /* MatcherProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88402F8F3DA582D37C01E836B1C53CC /* MatcherProtocols.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		34EA8D74C57BC1A6AC8C0A5B5267E56C /* QuickConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = D03C51D0EAB7AF5F88B1FE07EF3BCB8F /* QuickConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		369291BB5E6EC2524C842F7B5381731F /* Predicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3BA6BC8BD971E58956BDE394F172C6 /* Predicate.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		39F8807ABB21EC90A61F205DD7C23CEC /* NSelectViewCheckBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0483936F97CD28D876FA22317922FA18 /* NSelectViewCheckBox-dummy.m */; };
+		3B5E89E722376273EED9CCDA9F0EDBDC /* NSelectViewCheckBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2589EA888EEC628D95E0BAFEFE55C38 /* NSelectViewCheckBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BD0C370BBCEBDEA68B8EDBD969370EB /* mach_excServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 199E6ECAA7E165CC47089E40D6C7C1CD /* mach_excServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D17E2A1349188E2428A6943D98ACB81 /* UICheckbox.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 409EB0D18610374410BB451788A68009 /* UICheckbox.bundle */; };
+		3E367F36AF797374E9BA528A4790F5FB /* NMBExceptionCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F4882FA505DA150F4AD35C655B4B1A /* NMBExceptionCapture.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		403F837F9B4AC86C901D238D847A767A /* QuickSpecBase.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2A65ED6BB0896167097E1B84BCF551 /* QuickSpecBase.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		41B2F632A375DCF59B4D65567E59FCD3 /* BeAKindOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84983635A9BE418D9159ECCDFFF6A479 /* BeAKindOf.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		42C4D2CAA790780B1F5ADBF8A1536223 /* Equal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668534ACD974D8F0B6387C836E24886F /* Equal.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		4355729F17DB1BDD3A3817F2C0B80DBA /* UICheckbox.Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5AB951258A8D003494CC73C786FF4 /* UICheckbox.Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		493A4962D778D034EAA172A01B776E19 /* SatisfyAllOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F270E9E3E14E0E600CB2AD3406B30F /* SatisfyAllOf.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		493E310F883F729B80641EA81E0748A8 /* NSBundle+CurrentTestBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A6A64D8694731B6735B44F53D40E30 /* NSBundle+CurrentTestBundle.swift */; };
+		4E1C1DD9CFC24D9FBDA23F927CA73196 /* CwlMachBadInstructionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C93A46A8325120FA1E61C9170A35B34C /* CwlMachBadInstructionHandler.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		50655497550E397B95A35501CCF28D8D /* CwlBadInstructionException.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3757119814F9526B3DC8C32924BC90B /* CwlBadInstructionException.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		5100B743B7B3EC774D052AB45F58C9A9 /* BeLogical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B6922D32148222519446D370422781 /* BeLogical.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		535416689ADDB151B7A6B4BF1435C984 /* BeEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E96E3FD761F5C89D54DF156C658639 /* BeEmpty.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		53FF98ECE1A11652A11093EBFD28290F /* SuiteHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3527603C87A495EE423EAE433C139630 /* SuiteHooks.swift */; };
+		54D6650C6B0F612CC9B2DCE2A128CFBA /* mach_excServer.c in Sources */ = {isa = PBXBuildFile; fileRef = 3E2F96C7799CCEF4750FDDD5599DB9EC /* mach_excServer.c */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		57DAE6ED12EDA7C7234F2F1A422AD8BC /* AssertionDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDCDE3B736BA8B80EEDF7257A43A919 /* AssertionDispatcher.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		5D4616DF525ABD0252D193F5BA743A50 /* Behavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA89996C8782FEDF50664871CF39634 /* Behavior.swift */; };
+		5FEE4A3A45D78BD01B9DCCC1414E841A /* QuickConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC423C0BB7C325E3807B422510E449A /* QuickConfiguration.m */; };
+		6087BDAB63A7B0C8D643145A58DE0598 /* ElementsEqual.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8DC97023F04D602D1D00F8F562B488 /* ElementsEqual.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		646E7E1E9D3F4663D9CE23FF0231F80C /* BeCloseTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6E99C152A7CFF47E014CBC44A75439 /* BeCloseTo.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		66C5ADDF71166BC0E902F9085B401679 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8503B2AFE4FD9D644838EB2CCB2098AD /* Foundation.framework */; };
+		6A89D835780B2E8EF49E907B10915BF6 /* Pods-NSelectViewCheckBox_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4BA870081D669926677CA882E1DEA43 /* Pods-NSelectViewCheckBox_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D11E93FCF373BA0839EAD7D8138885C /* OptionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24FBB994824DE9875AB6891371636518 /* OptionViewCell.xib */; };
+		6ED91BB463B9D16F256711AF9D23A07A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8503B2AFE4FD9D644838EB2CCB2098AD /* Foundation.framework */; };
+		70CC686DA5C3CF45BE87B09AA3F0B411 /* NSelect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B555CB3EAC5BE0AE1E8C9E2300707C /* NSelect.framework */; };
+		71EC482B285F78B50C0C093F41E8DC87 /* CwlCatchBadInstruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22088E41C657F12AD48C35AE6EB4684F /* CwlCatchBadInstruction.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		71F9C34DC1AFED7BD3C27F6D3C99D1AB /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BE4C3643EB76AB238E32EA49943A4E /* DSL.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		758392518BCF1B22844118CD06DF0A22 /* OptionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E25FDD4CF4645D25AFDC02A4E902FC4 /* OptionViewCell.swift */; };
+		78FFCCAAB7E4E3BDAFEE11D4866ACBE6 /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2825A6C489F5AEFBA81E979D587B7CEC /* Example.swift */; };
+		7AFB2A4868895FEEABA1EA8EBA80F4F1 /* AssertionRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F9109B1386D89425EE002D064C5C84 /* AssertionRecorder.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		7B850567629B2D5D69E5A3C8FB2E78DC /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F957EE28B2106A523DCABB86FC16678 /* DSL.swift */; };
+		7BCC1E21AD0581F508C189CA6CDBF923 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8503B2AFE4FD9D644838EB2CCB2098AD /* Foundation.framework */; };
+		7C1D13343BB3E8478F34D58CD9DF4409 /* ic_check_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D35F1DF263DF65889C43BE21CAA09A9E /* ic_check_3x.png */; };
+		7DF8108B2B7C6C9DBD4E1F3ADF4F7DF0 /* UICheckbox_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6F6171E8227F76B24E4BD1A99F1F39B /* UICheckbox_Swift.framework */; };
+		7EB823DCBD13FBF9DD72D1BA97FF9D71 /* BeGreaterThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7695A89B43F19106782639DE7ED8187 /* BeGreaterThan.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		80DE0FCB42B465CF0F9C391D6F78732D /* BeLessThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB4AA55112C6D32D118DE0D6795F5CD /* BeLessThan.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		85422F9681ED8BD7F202AADFF984AB7E /* Callsite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8C5B37C5663ED8E72BB5E646189F18 /* Callsite.swift */; };
+		89202ED7A199568C27625984E30B0A7E /* NimbleEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1004586CBEA0F2DD5952B5B47A6456 /* NimbleEnvironment.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		8BEB0F1E158BDEBDC0F222A322BCC01F /* QuickSelectedTestSuiteBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9AB15CCEA769E46DF48AC94D253D42 /* QuickSelectedTestSuiteBuilder.swift */; };
+		8C36F62A65EF1B4D80DDF5191EC943BF /* BeIdenticalTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB64295FC38B8F277159EA9F841F4DE /* BeIdenticalTo.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		8D17749611AB0C8BD51C068749D8DF68 /* NMBExceptionCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 19D1C50E2881B3AB754FC62B7F7EAF46 /* NMBExceptionCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D9F157A5FCC82D1D09C419070376C12 /* RaisesException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2020A0C17D545B934F47627E9DB9E6BA /* RaisesException.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		8F30585544441090200E79CEF3ABCE29 /* UICheckbox.Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0604B275AD54B88AD62D3F040F09CDA7 /* UICheckbox.Swift-dummy.m */; };
+		917ABD6922CF6ABC8A15DB90DF33F023 /* String+C99ExtendedIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB0B73CD8042D22375F22EA32906C4D /* String+C99ExtendedIdentifier.swift */; };
+		933C82B8E2DBE50877081F728440D8B3 /* QCKDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 7585FFD3CE9B33F76914A5D9F29B4461 /* QCKDSL.m */; };
+		952E443F85653A8A1767339BBD329B18 /* SatisfyAnyOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE96B062EB98E4A1785816CCD6AFD69 /* SatisfyAnyOf.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		9548BF3D9743DCF3FB7AEB2C6B5B7808 /* NSelectViewCheckBox.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8B1BE1EFB2FDD8BA29B6F6975103FF70 /* NSelectViewCheckBox.bundle */; };
+		965253922A9AE78380F2854EA309575E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8503B2AFE4FD9D644838EB2CCB2098AD /* Foundation.framework */; };
+		96C9DA77EA1011954CFDEFAD32A269B4 /* Pods-NSelectViewCheckBox_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 554003637FB8412997476315F16800AD /* Pods-NSelectViewCheckBox_Example-dummy.m */; };
+		9BB5E9B6487FE95C710687B484C17161 /* Nimble.h in Headers */ = {isa = PBXBuildFile; fileRef = 03D67C82E53F06F48DC357261F44856D /* Nimble.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F5E711D72062A0774274460ED602353 /* UIRadioButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B48B24B3741800B7CA624624F6E1D06C /* UIRadioButton.framework */; };
+		9F70369EF71BD9ABAFF687AF532CC20D /* CwlMachBadInstructionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 10C27021470AD2904F5CB3BBA5DEDA9C /* CwlMachBadInstructionHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A25E62A3FD894EDEB3150A46C8D3A3D4 /* CwlCatchException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC55269C88EEF6E31A56F3D887231BA /* CwlCatchException.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		A333C8F11B3337CB7FCA6ACAA20919F8 /* AllPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F492B63D0CE2E66F14D6C21496A28A41 /* AllPass.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		A47730695C36FCFB46492D571D65058D /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152C66E2B28843C694040679FD4DA845 /* Match.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		A545FDFDE03E09328983281E9396D287 /* BeNil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CA601FA229650BA62B300F4B6AAA0 /* BeNil.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		A7867BF922CA2954E6929C98B486B000 /* ExpectationMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343326D335CA2E9C2703B7DA62331336 /* ExpectationMessage.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		A789C449E94E99D9060FA21239F0DF02 /* NSelect-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D6AA723FDB7DB0581B08AD07886C51D /* NSelect-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7EE275B9E3A5469E158340F0EC5D1D6 /* ThrowAssertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB8B7673FA7BA90A950BDF6F4BF6C8B /* ThrowAssertion.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		A8A524C1C48219643DE7E2EAE36BD7D3 /* EndWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CCB8B8DE1D6149B9571B1FFA808D38 /* EndWith.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		A9195203B4E2CE96CEFE4C5BA927512C /* HaveCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57AF134DC6E1EF167B263C886E7F073 /* HaveCount.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		A9BF211D24462D531E278F2AE317AEA4 /* Quick.h in Headers */ = {isa = PBXBuildFile; fileRef = 318A845F971963BF690A5824B381DC08 /* Quick.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD841E0C41DF45D2E086A203BB265762 /* Contain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A795475059C96C592F3AB1DDCDFE9663 /* Contain.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		B08A260C6A3A78909FEC971C99A85481 /* UIRadioButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7DE95344475AE8FCD15487421DC5626 /* UIRadioButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B31AB226691794D80D6B4164F615F941 /* MatcherFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6A035BB7E4D0CFBD29D8FC84A71F86 /* MatcherFunc.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		B7097E9992DFF704E16BAFC3FBDCC287 /* DSL+Wait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA490C74446AAC4A997DAAF2F58E5BC /* DSL+Wait.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		BD379F95293A811D8E591CAC8E9FF410 /* Quick-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C78E244200C4727195CD48A3BAE7EFF7 /* Quick-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C051C0411627BD5FCDA031782EB1F716 /* DSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AFBC390BFC6E326C81BDB1BEA030DFB /* DSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C147B29A97ACEC6639FC0D3CDAA6BA64 /* ContainElementSatisfying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E82D173CFE344E02CC2012EAE9C0C36 /* ContainElementSatisfying.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		C16CDA92867234C2253A914F7D2488B1 /* NMBExpectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD15EB620AD3993EC928B785C2CF59B0 /* NMBExpectation.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		C20A55022F75255BB06EC71BDD165600 /* DefaultNSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04878209C6C3CBE8D6234A26CC027A9A /* DefaultNSelectView.swift */; };
+		C31925A89D60BE7F1B25379A5DE8AE8C /* ToSucceed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4773AECD8093316043F3B7A0458CDE40 /* ToSucceed.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		C41A76A4CEAEEFF91BE6C021997C0001 /* QuickSpecBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB3750F282A1FCCD3533AE6FB978B7B /* QuickSpecBase.m */; };
+		C6ECA878004B8F1C29D3261FF16C03EA /* ExampleHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84B10804F71D89D35914810FB10D695 /* ExampleHooks.swift */; };
+		C732FD7C66AEA96BC61C0B105CE16376 /* Await.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625B4964488191F4E4B975F90AA7BDAE /* Await.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		C7CF046A8F741866D2B1E9ED4E70D263 /* UIRadioButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A60871016242E4B9C13B2B3203637393 /* UIRadioButton-dummy.m */; };
+		C912897D77798A90873A3DAD8A4BDC50 /* QCKDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = C1F7AEA41D32FCDD2BF3CB2D7B79ED6B /* QCKDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA958DBAA5F69BBB7FABA426CF2898E9 /* MatchError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A121132583A6DE1E9041E2EE988627C7 /* MatchError.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		CC4D4A58D5696C431EA499C04B436F5F /* SourceLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B2A61670A44F273BACD1DB569EE717 /* SourceLocation.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		CC5D08DE2F9BD9E57AC5BD5B839C59C7 /* NSelectViewCheckBox.xib in Resources */ = {isa = PBXBuildFile; fileRef = 425C50CD48627FBD404E6D808E90EBD0 /* NSelectViewCheckBox.xib */; };
+		CCDC4EAEB919DED1B6BF8D861A2D3F5A /* NSelectError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3841774B11B2DDB711D9512FCB14CEF /* NSelectError.swift */; };
+		CD5123F817D58D46FCAF8103A818EFDC /* DSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 042AAB25DAC36463B2F14821256408C6 /* DSL.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		CD6B1F146B0E157FE5B9CAFFAE77A5B5 /* Nimble-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90083BE3DBC1EB8A16946EF0DFBF43E6 /* Nimble-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE95FB405CED399302F548EF6942237B /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4F5AD29BDCA03D8969DB547EE96F00 /* Configuration.swift */; };
+		D24C4AA23C22701D3D65541B337F1AC4 /* Nimble-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67CD5D8764C65D2AAFA3E66A8458BBEE /* Nimble-dummy.m */; };
+		D2DF640C003BC488E1DB9A4D715E19DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8503B2AFE4FD9D644838EB2CCB2098AD /* Foundation.framework */; };
+		D346102261430008A78C8E54905E68F2 /* AdapterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB159FDCEB3EE243316FA4E23BEB0298 /* AdapterProtocols.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		D42A9F0569266AEA55E0C20D791C5C0D /* Pods-NSelectViewCheckBox_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A138E2CD0AAC45B5AE1F2217E5CD25AD /* Pods-NSelectViewCheckBox_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4EA991AF81BE9CAC9F6432B9EEC759A /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929F5F3950A19EC71E25AF78D07FC715 /* Filter.swift */; };
+		D755642ECA73CFE2E4C31CDD0DFBA42E /* QuickSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB7A96E8EE4B7287E4FA24CF3931E9B /* QuickSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7DD35ED5A306AC529590AAE0B79F2BE /* BeGreaterThanOrEqualTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E21FB09AA98B434385BBE74E8F2D4AD /* BeGreaterThanOrEqualTo.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		D9AD266DDADA8DCB08B476BE5034B65F /* NimbleXCTestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001E11563C6CA3D342A7063CE593D79E /* NimbleXCTestHandler.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		DA7CF0419F4244EC381F2AB10EC5421B /* URL+FileName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9C08D7B752D7F752AF81560333825 /* URL+FileName.swift */; };
+		DC50ECE5D1DDB08CDCFF759DE39BF2E5 /* NSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F87E54905507799EDFC9A24A2273A /* NSelectView.swift */; };
+		DD8395B1CE9CE0B9C0CE0B78548399BF /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D72E3035379D7ABCC8956287B62267 /* Closures.swift */; };
+		DDB5F5FBFFF5CB20A648FB45EB00490C /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928C872604270D7D7975040841E686CF /* Expression.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		E0EAC85F7ACFAD998B14FCE66144000E /* NMBStringify.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F5AABFE251EE098C804DE6A6DCB8E87 /* NMBStringify.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8792D6BC8EE16D86083F16D43E1E65A /* Pods-NSelectViewCheckBox_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 991EE31F3F5E9E292AE8312DE0650FA4 /* Pods-NSelectViewCheckBox_Tests-dummy.m */; };
+		EFB9CC9267297D8104141A4046AAD14E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8503B2AFE4FD9D644838EB2CCB2098AD /* Foundation.framework */; };
+		F175D7DB08C9EDE179A8402684974BDF /* NSelectMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BCFADA506E77707D8A9568CCB3E3B4 /* NSelectMode.swift */; };
+		F20F4FD591D44AEF205D430634E831AC /* ExampleGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4435CB7CC9981891A502B7DF5AF3C7 /* ExampleGroup.swift */; };
+		F38AD82713B368E2765614E17C582397 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8503B2AFE4FD9D644838EB2CCB2098AD /* Foundation.framework */; };
+		F4A88834AB5D40F416506DE9B755ACEE /* Quick-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED754BAAF6F373C3E8B0C36749D9E81 /* Quick-dummy.m */; };
+		F55864EA43601C1FB2C91902C821DC28 /* ExampleMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7B4AE3D538F6E1475B1C2B0C40BEEA /* ExampleMetadata.swift */; };
+		FBBE46F0FBC863C9D7CB317BCE8C4AC3 /* UICheckbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3EC73D4B42C5260B9187FD027282B3 /* UICheckbox.swift */; };
+		FBBE9D9A2D1C31E86BEABF94B224C4EE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 157C5BC212C2E64AE2014D0827AF00A5 /* XCTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		102E25551D9FB482B8B0BC4C225BDC16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEB3AC626D6D329D1C51CC4B4900A4FF;
+			remoteInfo = NSelectViewCheckBox;
+		};
+		4C7132BC62E19ED85A906AC22C9DD0EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 790782A8F40B9CBEFEBC2009CCB39E47;
+			remoteInfo = NSelect;
+		};
+		862771E991F2504D65B1478BE4475C71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B62A664E4E36C2BDFCA657881B2E56B;
+			remoteInfo = "Pods-NSelectViewCheckBox_Example";
+		};
+		94C6E78A3262B946EE7202EBAFBD644C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F13695E06195A78EA8A95F8C7ED0D2F;
+			remoteInfo = Nimble;
+		};
+		972E2DCD07C8CFC7EBA2F91B6790B793 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0858C1D535211C314CA11A07F3E6A56B;
+			remoteInfo = UIRadioButton;
+		};
+		996733D52E33C86A1AC04F35479B8013 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 472C2B6708BC6940A0BFF9A4A56547D5;
+			remoteInfo = UICheckbox.Swift;
+		};
+		A5CE31C5EDA99DA61BBDF3A140AC8108 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 685E1BC9BB429AD5A3BEF146E70C8967;
+			remoteInfo = "NSelectViewCheckBox-NSelectViewCheckBox";
+		};
+		AF710B48EC9C7A5F1A3500492B8A5E8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56BEB826D68D9E057C957D3B36535081;
+			remoteInfo = "UICheckbox.Swift-UICheckbox";
+		};
+		DD33992B7066362199D98977AF968DE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0858C1D535211C314CA11A07F3E6A56B;
+			remoteInfo = UIRadioButton;
+		};
+		EA44FC27889C56FBBE15D4CD6B8ADAA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 790782A8F40B9CBEFEBC2009CCB39E47;
+			remoteInfo = NSelect;
+		};
+		EF4D90F7E49289E5771554A44ECBE336 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 472C2B6708BC6940A0BFF9A4A56547D5;
+			remoteInfo = UICheckbox.Swift;
+		};
+		FFFB83F9E7E71F76DFE28357F8A25E43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C82891EAB7293DBEE916B21F57E8474D;
+			remoteInfo = Quick;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000E68EFEA7BCD6626F5D433073E0703 /* Quick.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Quick.modulemap; sourceTree = "<group>"; };
+		001E11563C6CA3D342A7063CE593D79E /* NimbleXCTestHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NimbleXCTestHandler.swift; path = Sources/Nimble/Adapters/NimbleXCTestHandler.swift; sourceTree = "<group>"; };
+		02E96E3FD761F5C89D54DF156C658639 /* BeEmpty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeEmpty.swift; path = Sources/Nimble/Matchers/BeEmpty.swift; sourceTree = "<group>"; };
+		03D67C82E53F06F48DC357261F44856D /* Nimble.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Nimble.h; path = Sources/Nimble/Nimble.h; sourceTree = "<group>"; };
+		042AAB25DAC36463B2F14821256408C6 /* DSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DSL.m; path = Sources/NimbleObjectiveC/DSL.m; sourceTree = "<group>"; };
+		0483936F97CD28D876FA22317922FA18 /* NSelectViewCheckBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSelectViewCheckBox-dummy.m"; sourceTree = "<group>"; };
+		04878209C6C3CBE8D6234A26CC027A9A /* DefaultNSelectView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultNSelectView.swift; path = NSelect/Classes/DefaultNSelectView.swift; sourceTree = "<group>"; };
+		0565A622E0D5A06B42E41950C985EEC4 /* ResourceBundle-NSelectViewCheckBox-NSelectViewCheckBox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-NSelectViewCheckBox-NSelectViewCheckBox-Info.plist"; sourceTree = "<group>"; };
+		05CC17608719113A73F4AB719A0A7191 /* Pods-NSelectViewCheckBox_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NSelectViewCheckBox_Tests.modulemap"; sourceTree = "<group>"; };
+		0604B275AD54B88AD62D3F040F09CDA7 /* UICheckbox.Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICheckbox.Swift-dummy.m"; sourceTree = "<group>"; };
+		0AC55269C88EEF6E31A56F3D887231BA /* CwlCatchException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlCatchException.swift; path = Carthage/Checkouts/CwlCatchException/Sources/CwlCatchException/CwlCatchException.swift; sourceTree = "<group>"; };
+		0D631E9908483F9525A6B3F36F16CC61 /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Quick.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D8AECF4F9D8DC4E688C7418774654B4 /* UIRadioButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIRadioButton.framework; path = UIRadioButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EEE5B715DCBFDB1C8ED7ECB16CF05BD /* Pods-NSelectViewCheckBox_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSelectViewCheckBox_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		10C27021470AD2904F5CB3BBA5DEDA9C /* CwlMachBadInstructionHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CwlMachBadInstructionHandler.h; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/include/CwlMachBadInstructionHandler.h; sourceTree = "<group>"; };
+		12C6A8956556846A3F7A3316CAA5347F /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = Sources/Nimble/Utils/Errors.swift; sourceTree = "<group>"; };
+		13869CA9D207D3020BE5FBF77581A95D /* NSelectViewCheckBox.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NSelectViewCheckBox.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		13D00CC73348F901148706CEDA5F3331 /* Nimble-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Nimble-Info.plist"; sourceTree = "<group>"; };
+		152C66E2B28843C694040679FD4DA845 /* Match.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Match.swift; path = Sources/Nimble/Matchers/Match.swift; sourceTree = "<group>"; };
+		157C5BC212C2E64AE2014D0827AF00A5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		180CA601FA229650BA62B300F4B6AAA0 /* BeNil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeNil.swift; path = Sources/Nimble/Matchers/BeNil.swift; sourceTree = "<group>"; };
+		199E6ECAA7E165CC47089E40D6C7C1CD /* mach_excServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mach_excServer.h; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/mach_excServer.h; sourceTree = "<group>"; };
+		19D1C50E2881B3AB754FC62B7F7EAF46 /* NMBExceptionCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMBExceptionCapture.h; path = Sources/NimbleObjectiveC/NMBExceptionCapture.h; sourceTree = "<group>"; };
+		1AB3750F282A1FCCD3533AE6FB978B7B /* QuickSpecBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickSpecBase.m; path = Sources/QuickSpecBase/QuickSpecBase.m; sourceTree = "<group>"; };
+		1B6E99C152A7CFF47E014CBC44A75439 /* BeCloseTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeCloseTo.swift; path = Sources/Nimble/Matchers/BeCloseTo.swift; sourceTree = "<group>"; };
+		1C322354E7834D3EA10595BC45A0DE31 /* Nimble.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Nimble.xcconfig; sourceTree = "<group>"; };
+		1CB21C58A4433A360B2587116620E9F5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1E82D173CFE344E02CC2012EAE9C0C36 /* ContainElementSatisfying.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContainElementSatisfying.swift; path = Sources/Nimble/Matchers/ContainElementSatisfying.swift; sourceTree = "<group>"; };
+		1ED754BAAF6F373C3E8B0C36749D9E81 /* Quick-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Quick-dummy.m"; sourceTree = "<group>"; };
+		1F5AABFE251EE098C804DE6A6DCB8E87 /* NMBStringify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMBStringify.h; path = Sources/NimbleObjectiveC/NMBStringify.h; sourceTree = "<group>"; };
+		2020A0C17D545B934F47627E9DB9E6BA /* RaisesException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RaisesException.swift; path = Sources/Nimble/Matchers/RaisesException.swift; sourceTree = "<group>"; };
+		204924CA60300987534699B22C63C119 /* UIRadioButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIRadioButton.swift; path = UIRadioButton/Classes/UIRadioButton.swift; sourceTree = "<group>"; };
+		22088E41C657F12AD48C35AE6EB4684F /* CwlCatchBadInstruction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlCatchBadInstruction.swift; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlPreconditionTesting/CwlCatchBadInstruction.swift; sourceTree = "<group>"; };
+		235407FF0E618012B9522D1DBC8A3433 /* CwlPreconditionTesting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CwlPreconditionTesting.h; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlPreconditionTesting/Mach/CwlPreconditionTesting.h; sourceTree = "<group>"; };
+		23C244809374DAF809749F0072DAA471 /* Pods-NSelectViewCheckBox_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NSelectViewCheckBox_Example-frameworks.sh"; sourceTree = "<group>"; };
+		23FAD3986DEA2A020DB4808BE94042C5 /* BeAnInstanceOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeAnInstanceOf.swift; path = Sources/Nimble/Matchers/BeAnInstanceOf.swift; sourceTree = "<group>"; };
+		24FBB994824DE9875AB6891371636518 /* OptionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = OptionViewCell.xib; path = NSelectViewCheckBox/Assets/OptionViewCell.xib; sourceTree = "<group>"; };
+		25185C14A885AAE5F8C620E71EEEFD66 /* NSelect-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSelect-prefix.pch"; sourceTree = "<group>"; };
+		262691A30281709396F46805775659B3 /* UIRadioButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UIRadioButton.modulemap; sourceTree = "<group>"; };
+		26C1E5570C071B54C5D1CF071449ACEA /* NMBStringify.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMBStringify.m; path = Sources/NimbleObjectiveC/NMBStringify.m; sourceTree = "<group>"; };
+		2825A6C489F5AEFBA81E979D587B7CEC /* Example.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Example.swift; path = Sources/Quick/Example.swift; sourceTree = "<group>"; };
+		297E0F38BA8CCC59AFE47906ED32DBA3 /* NSelect.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NSelect.xcconfig; sourceTree = "<group>"; };
+		2AB64295FC38B8F277159EA9F841F4DE /* BeIdenticalTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeIdenticalTo.swift; path = Sources/Nimble/Matchers/BeIdenticalTo.swift; sourceTree = "<group>"; };
+		2B3BA6BC8BD971E58956BDE394F172C6 /* Predicate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Predicate.swift; path = Sources/Nimble/Matchers/Predicate.swift; sourceTree = "<group>"; };
+		2C0DF1AD75AE579CACC0A8CEFB1B5A48 /* Pods_NSelectViewCheckBox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NSelectViewCheckBox_Example.framework; path = "Pods-NSelectViewCheckBox_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		318A845F971963BF690A5824B381DC08 /* Quick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Quick.h; path = Sources/QuickObjectiveC/Quick.h; sourceTree = "<group>"; };
+		343326D335CA2E9C2703B7DA62331336 /* ExpectationMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpectationMessage.swift; path = Sources/Nimble/ExpectationMessage.swift; sourceTree = "<group>"; };
+		3527603C87A495EE423EAE433C139630 /* SuiteHooks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SuiteHooks.swift; path = Sources/Quick/Hooks/SuiteHooks.swift; sourceTree = "<group>"; };
+		36AA458CC3BA8552103335DEC96CD110 /* CwlDarwinDefinitions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlDarwinDefinitions.swift; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlPreconditionTesting/CwlDarwinDefinitions.swift; sourceTree = "<group>"; };
+		37BCFADA506E77707D8A9568CCB3E3B4 /* NSelectMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSelectMode.swift; path = NSelect/Classes/NSelectMode.swift; sourceTree = "<group>"; };
+		381CDB20F877396A8A815936AC0BD122 /* Pods-NSelectViewCheckBox_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSelectViewCheckBox_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3BC9C08D7B752D7F752AF81560333825 /* URL+FileName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+FileName.swift"; path = "Sources/Quick/URL+FileName.swift"; sourceTree = "<group>"; };
+		3E2F96C7799CCEF4750FDDD5599DB9EC /* mach_excServer.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mach_excServer.c; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/mach_excServer.c; sourceTree = "<group>"; };
+		3E8980EDA22FD260D604EAB0BA4B6906 /* CwlCatchException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CwlCatchException.h; path = Carthage/Checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchException.h; sourceTree = "<group>"; };
+		3F957EE28B2106A523DCABB86FC16678 /* DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSL.swift; path = Sources/Quick/DSL/DSL.swift; sourceTree = "<group>"; };
+		409EB0D18610374410BB451788A68009 /* UICheckbox.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = UICheckbox.bundle; path = "UICheckbox.Swift-UICheckbox.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		425C50CD48627FBD404E6D808E90EBD0 /* NSelectViewCheckBox.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = NSelectViewCheckBox.xib; path = NSelectViewCheckBox/Assets/NSelectViewCheckBox.xib; sourceTree = "<group>"; };
+		4773AECD8093316043F3B7A0458CDE40 /* ToSucceed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToSucceed.swift; path = Sources/Nimble/Matchers/ToSucceed.swift; sourceTree = "<group>"; };
+		495C884BC2229B40345A09446778CAB1 /* NSelectViewCheckBox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSelectViewCheckBox-prefix.pch"; sourceTree = "<group>"; };
+		49B2A61670A44F273BACD1DB569EE717 /* SourceLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourceLocation.swift; path = Sources/Nimble/Utils/SourceLocation.swift; sourceTree = "<group>"; };
+		4A6A035BB7E4D0CFBD29D8FC84A71F86 /* MatcherFunc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatcherFunc.swift; path = Sources/Nimble/Matchers/MatcherFunc.swift; sourceTree = "<group>"; };
+		4AB4AA55112C6D32D118DE0D6795F5CD /* BeLessThan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLessThan.swift; path = Sources/Nimble/Matchers/BeLessThan.swift; sourceTree = "<group>"; };
+		4ACDD5309E0A018875BFA658CCDE7079 /* NSelect.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NSelect.modulemap; sourceTree = "<group>"; };
+		4B9AB15CCEA769E46DF48AC94D253D42 /* QuickSelectedTestSuiteBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickSelectedTestSuiteBuilder.swift; path = Sources/Quick/QuickSelectedTestSuiteBuilder.swift; sourceTree = "<group>"; };
+		4CC69DF23CDDB1C00B192F297A4D0FB0 /* Quick-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Quick-prefix.pch"; sourceTree = "<group>"; };
+		4DDEAAA3119318E69387024EC6227019 /* Pods-NSelectViewCheckBox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSelectViewCheckBox_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4E21FB09AA98B434385BBE74E8F2D4AD /* BeGreaterThanOrEqualTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeGreaterThanOrEqualTo.swift; path = Sources/Nimble/Matchers/BeGreaterThanOrEqualTo.swift; sourceTree = "<group>"; };
+		4F5B331691A4C1C080EC70E0F0FC27B2 /* FailureMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FailureMessage.swift; path = Sources/Nimble/FailureMessage.swift; sourceTree = "<group>"; };
+		4F870E24AF9A369C5D75D935DA93DB95 /* Pods-NSelectViewCheckBox_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSelectViewCheckBox_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		520975D8A1D9B0219CC3B4DDC746E22B /* ErrorUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ErrorUtility.swift; path = Sources/Quick/ErrorUtility.swift; sourceTree = "<group>"; };
+		53B74A2179222D36C93A182B9A7EB775 /* NSelectViewCheckBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NSelectViewCheckBox.framework; path = NSelectViewCheckBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54A7FEB349EA948A289702FE248C5574 /* QuickTestSuite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTestSuite.swift; path = Sources/Quick/QuickTestSuite.swift; sourceTree = "<group>"; };
+		552155E6978A5A4966A5C1F15337A988 /* Pods-NSelectViewCheckBox_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NSelectViewCheckBox_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		554003637FB8412997476315F16800AD /* Pods-NSelectViewCheckBox_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NSelectViewCheckBox_Example-dummy.m"; sourceTree = "<group>"; };
+		5AFBC390BFC6E326C81BDB1BEA030DFB /* DSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DSL.h; path = Sources/NimbleObjectiveC/DSL.h; sourceTree = "<group>"; };
+		5CA6461AAB2E3A6B1F0C7DE958505FE4 /* QuickSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickSpec.m; path = Sources/QuickObjectiveC/QuickSpec.m; sourceTree = "<group>"; };
+		5D8C5B37C5663ED8E72BB5E646189F18 /* Callsite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Callsite.swift; path = Sources/Quick/Callsite.swift; sourceTree = "<group>"; };
+		5DF15B1F4096B38B03BA41BA68C2DC84 /* Pods-NSelectViewCheckBox_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NSelectViewCheckBox_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		625B4964488191F4E4B975F90AA7BDAE /* Await.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Await.swift; path = Sources/Nimble/Utils/Await.swift; sourceTree = "<group>"; };
+		62B6922D32148222519446D370422781 /* BeLogical.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLogical.swift; path = Sources/Nimble/Matchers/BeLogical.swift; sourceTree = "<group>"; };
+		6604E58F9E89BF90D1326B149F36B85C /* BeLessThanOrEqual.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLessThanOrEqual.swift; path = Sources/Nimble/Matchers/BeLessThanOrEqual.swift; sourceTree = "<group>"; };
+		668534ACD974D8F0B6387C836E24886F /* Equal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Equal.swift; path = Sources/Nimble/Matchers/Equal.swift; sourceTree = "<group>"; };
+		67CD5D8764C65D2AAFA3E66A8458BBEE /* Nimble-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Nimble-dummy.m"; sourceTree = "<group>"; };
+		6D6AA723FDB7DB0581B08AD07886C51D /* NSelect-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSelect-umbrella.h"; sourceTree = "<group>"; };
+		6EC75411AD50B0E969E6BE888562DAFB /* Stringers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stringers.swift; path = Sources/Nimble/Utils/Stringers.swift; sourceTree = "<group>"; };
+		6F1004586CBEA0F2DD5952B5B47A6456 /* NimbleEnvironment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NimbleEnvironment.swift; path = Sources/Nimble/Adapters/NimbleEnvironment.swift; sourceTree = "<group>"; };
+		6FB8B7673FA7BA90A950BDF6F4BF6C8B /* ThrowAssertion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThrowAssertion.swift; path = Sources/Nimble/Matchers/ThrowAssertion.swift; sourceTree = "<group>"; };
+		72F270E9E3E14E0E600CB2AD3406B30F /* SatisfyAllOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SatisfyAllOf.swift; path = Sources/Nimble/Matchers/SatisfyAllOf.swift; sourceTree = "<group>"; };
+		7585FFD3CE9B33F76914A5D9F29B4461 /* QCKDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QCKDSL.m; path = Sources/QuickObjectiveC/DSL/QCKDSL.m; sourceTree = "<group>"; };
+		772B909638BCE81735B4BAFD52DFF4DE /* NSelectViewCheckBox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NSelectViewCheckBox-Info.plist"; sourceTree = "<group>"; };
+		7916BA4F31049A7721FCB34E71052EAB /* Quick.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Quick.xcconfig; sourceTree = "<group>"; };
+		79BE4C3643EB76AB238E32EA49943A4E /* DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSL.swift; path = Sources/Nimble/DSL.swift; sourceTree = "<group>"; };
+		7A4F5AD29BDCA03D8969DB547EE96F00 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Sources/Quick/Configuration/Configuration.swift; sourceTree = "<group>"; };
+		7B7C099A352F57FC2C0D537F11310362 /* ResourceBundle-UICheckbox-UICheckbox.Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-UICheckbox-UICheckbox.Swift-Info.plist"; sourceTree = "<group>"; };
+		7CA490C74446AAC4A997DAAF2F58E5BC /* DSL+Wait.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DSL+Wait.swift"; path = "Sources/Nimble/DSL+Wait.swift"; sourceTree = "<group>"; };
+		7E25FDD4CF4645D25AFDC02A4E902FC4 /* OptionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OptionViewCell.swift; path = NSelectViewCheckBox/Classes/OptionViewCell.swift; sourceTree = "<group>"; };
+		84983635A9BE418D9159ECCDFFF6A479 /* BeAKindOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeAKindOf.swift; path = Sources/Nimble/Matchers/BeAKindOf.swift; sourceTree = "<group>"; };
+		8503B2AFE4FD9D644838EB2CCB2098AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		87F9109B1386D89425EE002D064C5C84 /* AssertionRecorder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertionRecorder.swift; path = Sources/Nimble/Adapters/AssertionRecorder.swift; sourceTree = "<group>"; };
+		8B1BE1EFB2FDD8BA29B6F6975103FF70 /* NSelectViewCheckBox.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = NSelectViewCheckBox.bundle; path = "NSelectViewCheckBox-NSelectViewCheckBox.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B72C548464FA7917895E6C8DBEE3A51 /* Pods-NSelectViewCheckBox_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NSelectViewCheckBox_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8BBDAFB648521A6E1ED2F6DEDB861C5B /* BeginWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeginWith.swift; path = Sources/Nimble/Matchers/BeginWith.swift; sourceTree = "<group>"; };
+		90083BE3DBC1EB8A16946EF0DFBF43E6 /* Nimble-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-umbrella.h"; sourceTree = "<group>"; };
+		917E2DF2841129AE5D5B47AB6F6D06F3 /* Pods-NSelectViewCheckBox_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NSelectViewCheckBox_Example-Info.plist"; sourceTree = "<group>"; };
+		928B5498C305DB1DF8671D00CA42D48E /* UIRadioButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIRadioButton.xcconfig; sourceTree = "<group>"; };
+		928C872604270D7D7975040841E686CF /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Sources/Nimble/Expression.swift; sourceTree = "<group>"; };
+		929F5F3950A19EC71E25AF78D07FC715 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Quick/Filter.swift; sourceTree = "<group>"; };
+		92D72E3035379D7ABCC8956287B62267 /* Closures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Closures.swift; path = Sources/Quick/Hooks/Closures.swift; sourceTree = "<group>"; };
+		93FC65B4111B397F6DAA49612A34F9EC /* Quick-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Quick-Info.plist"; sourceTree = "<group>"; };
+		983AEACB95CDD5EC26524C71B741F70E /* Pods-NSelectViewCheckBox_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NSelectViewCheckBox_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		991EE31F3F5E9E292AE8312DE0650FA4 /* Pods-NSelectViewCheckBox_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NSelectViewCheckBox_Tests-dummy.m"; sourceTree = "<group>"; };
+		9B2E567A21D5A211A4F192301FA1598E /* UIRadioButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UIRadioButton-Info.plist"; sourceTree = "<group>"; };
+		9CD61011146A57B7BFBEC82971828294 /* UICheckbox_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UICheckbox_Swift.framework; path = UICheckbox.Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E7B4AE3D538F6E1475B1C2B0C40BEEA /* ExampleMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleMetadata.swift; path = Sources/Quick/ExampleMetadata.swift; sourceTree = "<group>"; };
+		A0444F4FD23438C68A5725D341F257B1 /* Pods-NSelectViewCheckBox_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NSelectViewCheckBox_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A121132583A6DE1E9041E2EE988627C7 /* MatchError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatchError.swift; path = Sources/Nimble/Matchers/MatchError.swift; sourceTree = "<group>"; };
+		A138E2CD0AAC45B5AE1F2217E5CD25AD /* Pods-NSelectViewCheckBox_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NSelectViewCheckBox_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A2589EA888EEC628D95E0BAFEFE55C38 /* NSelectViewCheckBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSelectViewCheckBox-umbrella.h"; sourceTree = "<group>"; };
+		A60871016242E4B9C13B2B3203637393 /* UIRadioButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIRadioButton-dummy.m"; sourceTree = "<group>"; };
+		A6A6A64D8694731B6735B44F53D40E30 /* NSBundle+CurrentTestBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSBundle+CurrentTestBundle.swift"; path = "Sources/Quick/NSBundle+CurrentTestBundle.swift"; sourceTree = "<group>"; };
+		A795475059C96C592F3AB1DDCDFE9663 /* Contain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Contain.swift; path = Sources/Nimble/Matchers/Contain.swift; sourceTree = "<group>"; };
+		A9F1F27819D169D98BE2FA4F58E956AD /* CwlCatchException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CwlCatchException.m; path = Carthage/Checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/CwlCatchException.m; sourceTree = "<group>"; };
+		AAD5AB951258A8D003494CC73C786FF4 /* UICheckbox.Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICheckbox.Swift-umbrella.h"; sourceTree = "<group>"; };
+		AAE96B062EB98E4A1785816CCD6AFD69 /* SatisfyAnyOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SatisfyAnyOf.swift; path = Sources/Nimble/Matchers/SatisfyAnyOf.swift; sourceTree = "<group>"; };
+		AC4435CB7CC9981891A502B7DF5AF3C7 /* ExampleGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleGroup.swift; path = Sources/Quick/ExampleGroup.swift; sourceTree = "<group>"; };
+		ACA63A49B2F7AE9A5161DC594B173351 /* UICheckbox.Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UICheckbox.Swift-Info.plist"; sourceTree = "<group>"; };
+		AD15EB620AD3993EC928B785C2CF59B0 /* NMBExpectation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NMBExpectation.swift; path = Sources/Nimble/Adapters/NMBExpectation.swift; sourceTree = "<group>"; };
+		AF3EC73D4B42C5260B9187FD027282B3 /* UICheckbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICheckbox.swift; path = UICheckbox/Classes/UICheckbox.swift; sourceTree = "<group>"; };
+		AF70CDC2C9B27DE3F212D7BEAB697659 /* Nimble-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-prefix.pch"; sourceTree = "<group>"; };
+		AFB4040387C82519FA65F4FB5A407AD4 /* HooksPhase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HooksPhase.swift; path = Sources/Quick/Hooks/HooksPhase.swift; sourceTree = "<group>"; };
+		B48B24B3741800B7CA624624F6E1D06C /* UIRadioButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIRadioButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4BA870081D669926677CA882E1DEA43 /* Pods-NSelectViewCheckBox_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NSelectViewCheckBox_Example-umbrella.h"; sourceTree = "<group>"; };
+		B4CCB8B8DE1D6149B9571B1FFA808D38 /* EndWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EndWith.swift; path = Sources/Nimble/Matchers/EndWith.swift; sourceTree = "<group>"; };
+		B4D995C4DEAF4777A64C459E80A69FB1 /* UICheckbox.Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UICheckbox.Swift.xcconfig; sourceTree = "<group>"; };
+		B57AF134DC6E1EF167B263C886E7F073 /* HaveCount.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HaveCount.swift; path = Sources/Nimble/Matchers/HaveCount.swift; sourceTree = "<group>"; };
+		BAE263041362D074978BB3B577DF0A05 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Nimble.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB159FDCEB3EE243316FA4E23BEB0298 /* AdapterProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdapterProtocols.swift; path = Sources/Nimble/Adapters/AdapterProtocols.swift; sourceTree = "<group>"; };
+		BBFF697FBEC2510180708D55931B9E9E /* NSelectViewCheckBox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NSelectViewCheckBox.xcconfig; sourceTree = "<group>"; };
+		BC89783C115E6BA9BF7D6BFD498D794D /* World.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = World.swift; path = Sources/Quick/World.swift; sourceTree = "<group>"; };
+		BDDCDE3B736BA8B80EEDF7257A43A919 /* AssertionDispatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertionDispatcher.swift; path = Sources/Nimble/Adapters/AssertionDispatcher.swift; sourceTree = "<group>"; };
+		BE225C23AF912A4E4CE0B3361959ACE0 /* ThrowError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThrowError.swift; path = Sources/Nimble/Matchers/ThrowError.swift; sourceTree = "<group>"; };
+		BFA88C1D3AADE0D9E187AE615E0BD36F /* UIRadioButtonGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIRadioButtonGroup.swift; path = UIRadioButton/Classes/UIRadioButtonGroup.swift; sourceTree = "<group>"; };
+		C1F7AEA41D32FCDD2BF3CB2D7B79ED6B /* QCKDSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QCKDSL.h; path = Sources/QuickObjectiveC/DSL/QCKDSL.h; sourceTree = "<group>"; };
+		C3757119814F9526B3DC8C32924BC90B /* CwlBadInstructionException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlBadInstructionException.swift; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlPreconditionTesting/CwlBadInstructionException.swift; sourceTree = "<group>"; };
+		C715E00FEE042A62C10A641292FC1687 /* NSelect-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NSelect-Info.plist"; sourceTree = "<group>"; };
+		C78E244200C4727195CD48A3BAE7EFF7 /* Quick-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Quick-umbrella.h"; sourceTree = "<group>"; };
+		C88402F8F3DA582D37C01E836B1C53CC /* MatcherProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatcherProtocols.swift; path = Sources/Nimble/Matchers/MatcherProtocols.swift; sourceTree = "<group>"; };
+		C90521C818C62B06DB5ACF5FAF5D16DE /* NSelect-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSelect-dummy.m"; sourceTree = "<group>"; };
+		C93A46A8325120FA1E61C9170A35B34C /* CwlMachBadInstructionHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CwlMachBadInstructionHandler.m; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/CwlMachBadInstructionHandler.m; sourceTree = "<group>"; };
+		CBC423C0BB7C325E3807B422510E449A /* QuickConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickConfiguration.m; path = Sources/QuickObjectiveC/Configuration/QuickConfiguration.m; sourceTree = "<group>"; };
+		CC56B4869930760BFAA513EF06E169B9 /* UICheckbox.Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICheckbox.Swift-prefix.pch"; sourceTree = "<group>"; };
+		CD8DC97023F04D602D1D00F8F562B488 /* ElementsEqual.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ElementsEqual.swift; path = Sources/Nimble/Matchers/ElementsEqual.swift; sourceTree = "<group>"; };
+		CDE63A95831C87386C3E180894CB37E8 /* UIRadioButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIRadioButton-prefix.pch"; sourceTree = "<group>"; };
+		CEFF534938AC5EA5A2380B98718714AF /* XCTestSuite+QuickTestSuiteBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestSuite+QuickTestSuiteBuilder.m"; path = "Sources/QuickObjectiveC/XCTestSuite+QuickTestSuiteBuilder.m"; sourceTree = "<group>"; };
+		CFB7A96E8EE4B7287E4FA24CF3931E9B /* QuickSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickSpec.h; path = Sources/QuickObjectiveC/QuickSpec.h; sourceTree = "<group>"; };
+		D03C51D0EAB7AF5F88B1FE07EF3BCB8F /* QuickConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickConfiguration.h; path = Sources/QuickObjectiveC/Configuration/QuickConfiguration.h; sourceTree = "<group>"; };
+		D35F1DF263DF65889C43BE21CAA09A9E /* ic_check_3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_check_3x.png; path = UICheckbox/Assets/ic_check_3x.png; sourceTree = "<group>"; };
+		D5C50AA9398302CC13E17DAB7A88AD96 /* Pods-NSelectViewCheckBox_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NSelectViewCheckBox_Tests-Info.plist"; sourceTree = "<group>"; };
+		D73C7392987F95E09642B3452A688A59 /* World+DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "World+DSL.swift"; path = "Sources/Quick/DSL/World+DSL.swift"; sourceTree = "<group>"; };
+		D7695A89B43F19106782639DE7ED8187 /* BeGreaterThan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeGreaterThan.swift; path = Sources/Nimble/Matchers/BeGreaterThan.swift; sourceTree = "<group>"; };
+		DDA6484610267CF51A308E3ACEAAD55B /* XCTestObservationCenter+Register.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestObservationCenter+Register.m"; path = "Sources/NimbleObjectiveC/XCTestObservationCenter+Register.m"; sourceTree = "<group>"; };
+		DDD07D4696FFEC3BCCEC23235D232A07 /* NSelectViewCheckBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSelectViewCheckBox.swift; path = NSelectViewCheckBox/Classes/NSelectViewCheckBox.swift; sourceTree = "<group>"; };
+		E15E93209230FE869DB0570289E1C77C /* PostNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PostNotification.swift; path = Sources/Nimble/Matchers/PostNotification.swift; sourceTree = "<group>"; };
+		E195344BC5AFAE8C8295A18B4FD124B4 /* BeVoid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeVoid.swift; path = Sources/Nimble/Matchers/BeVoid.swift; sourceTree = "<group>"; };
+		E3841774B11B2DDB711D9512FCB14CEF /* NSelectError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSelectError.swift; path = NSelect/Classes/NSelectError.swift; sourceTree = "<group>"; };
+		E6F4882FA505DA150F4AD35C655B4B1A /* NMBExceptionCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMBExceptionCapture.m; path = Sources/NimbleObjectiveC/NMBExceptionCapture.m; sourceTree = "<group>"; };
+		E6F6171E8227F76B24E4BD1A99F1F39B /* UICheckbox_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UICheckbox_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8D2EF7E459C3C63C14F15D1832441A2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E8E0CF9C7997D1C0DE621CC51C302F95 /* NSelect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSelect.swift; path = NSelect/Classes/NSelect.swift; sourceTree = "<group>"; };
+		EAF5974A40D7A453CD09D7C178B86FD8 /* Nimble.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Nimble.modulemap; sourceTree = "<group>"; };
+		EB6C29CB9762138864D8C35BA1722401 /* UICheckbox.Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UICheckbox.Swift.modulemap; sourceTree = "<group>"; };
+		ED2A65ED6BB0896167097E1B84BCF551 /* QuickSpecBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickSpecBase.h; path = Sources/QuickSpecBase/include/QuickSpecBase.h; sourceTree = "<group>"; };
+		EE6DBB7629DD13AC99A0D9031ED99663 /* Expectation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expectation.swift; path = Sources/Nimble/Expectation.swift; sourceTree = "<group>"; };
+		EFB0B73CD8042D22375F22EA32906C4D /* String+C99ExtendedIdentifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+C99ExtendedIdentifier.swift"; path = "Sources/Quick/String+C99ExtendedIdentifier.swift"; sourceTree = "<group>"; };
+		F03F87E54905507799EDFC9A24A2273A /* NSelectView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSelectView.swift; path = NSelect/Classes/NSelectView.swift; sourceTree = "<group>"; };
+		F0B555CB3EAC5BE0AE1E8C9E2300707C /* NSelect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSelect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F19F64B5DA74604CFE4C61AEDBD3F9A4 /* NMBObjCMatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NMBObjCMatcher.swift; path = Sources/Nimble/Adapters/NMBObjCMatcher.swift; sourceTree = "<group>"; };
+		F2B221C3EB055DE4B1D1B27A0F831507 /* Pods-NSelectViewCheckBox_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NSelectViewCheckBox_Example.modulemap"; sourceTree = "<group>"; };
+		F2E3FF50F7DF03C2F60B3A52BA4166A9 /* NSelect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NSelect.framework; path = NSelect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F48D7CA5ADDF8EC29CFE74BFDD5487AB /* Functional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Functional.swift; path = Sources/Nimble/Utils/Functional.swift; sourceTree = "<group>"; };
+		F492B63D0CE2E66F14D6C21496A28A41 /* AllPass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AllPass.swift; path = Sources/Nimble/Matchers/AllPass.swift; sourceTree = "<group>"; };
+		F791E8B092E1EC4F50F0836773214E35 /* NSelectViewCheckBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NSelectViewCheckBox.modulemap; sourceTree = "<group>"; };
+		F7DE95344475AE8FCD15487421DC5626 /* UIRadioButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIRadioButton-umbrella.h"; sourceTree = "<group>"; };
+		F84B10804F71D89D35914810FB10D695 /* ExampleHooks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleHooks.swift; path = Sources/Quick/Hooks/ExampleHooks.swift; sourceTree = "<group>"; };
+		FBE64E8B87AF358E282F17345E7F2F3F /* Async.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Async.swift; path = Sources/Nimble/Matchers/Async.swift; sourceTree = "<group>"; };
+		FCA89996C8782FEDF50664871CF39634 /* Behavior.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Behavior.swift; path = Sources/Quick/Behavior.swift; sourceTree = "<group>"; };
+		FE0B90D3599F864928AD7EA1A9FED3A8 /* Pods_NSelectViewCheckBox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NSelectViewCheckBox_Tests.framework; path = "Pods-NSelectViewCheckBox_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29EAD0AD8031D388A8973D6A1FD1728D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DE9407A21190933FC64B0FE438EA28C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ED91BB463B9D16F256711AF9D23A07A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55C81EE76C6A69F1F69792A679310C68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB9CC9267297D8104141A4046AAD14E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C42D7CEDCB369F3BAB4BE89974E980C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07706BE58F33FE09DE03B97AB2F972C3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77BEDC9050A86C82FBD0ED492F4532FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C268C9C1AC149FB8D0A59EA145A74D17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2DF640C003BC488E1DB9A4D715E19DF /* Foundation.framework in Frameworks */,
+				70CC686DA5C3CF45BE87B09AA3F0B411 /* NSelect.framework in Frameworks */,
+				7DF8108B2B7C6C9DBD4E1F3ADF4F7DF0 /* UICheckbox_Swift.framework in Frameworks */,
+				9F5E711D72062A0774274460ED602353 /* UIRadioButton.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9523B817C92EFD8BCE3CDE77F54908E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BCC1E21AD0581F508C189CA6CDBF923 /* Foundation.framework in Frameworks */,
+				FBBE9D9A2D1C31E86BEABF94B224C4EE /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E40ECE301F505919EB7153173A5B943F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				965253922A9AE78380F2854EA309575E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E525467F43A47B3324907DF1E592809A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C5ADDF71166BC0E902F9085B401679 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFCC09E738F1973144F0890815FBD310 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38AD82713B368E2765614E17C582397 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		012028EF26CEDE773FCE67C8FCF3B8B7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				425C50CD48627FBD404E6D808E90EBD0 /* NSelectViewCheckBox.xib */,
+				24FBB994824DE9875AB6891371636518 /* OptionViewCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		0B5828F665E2C436F7FD4CD3ADB58093 /* Nimble */ = {
+			isa = PBXGroup;
+			children = (
+				BB159FDCEB3EE243316FA4E23BEB0298 /* AdapterProtocols.swift */,
+				F492B63D0CE2E66F14D6C21496A28A41 /* AllPass.swift */,
+				BDDCDE3B736BA8B80EEDF7257A43A919 /* AssertionDispatcher.swift */,
+				87F9109B1386D89425EE002D064C5C84 /* AssertionRecorder.swift */,
+				FBE64E8B87AF358E282F17345E7F2F3F /* Async.swift */,
+				625B4964488191F4E4B975F90AA7BDAE /* Await.swift */,
+				84983635A9BE418D9159ECCDFFF6A479 /* BeAKindOf.swift */,
+				23FAD3986DEA2A020DB4808BE94042C5 /* BeAnInstanceOf.swift */,
+				1B6E99C152A7CFF47E014CBC44A75439 /* BeCloseTo.swift */,
+				02E96E3FD761F5C89D54DF156C658639 /* BeEmpty.swift */,
+				8BBDAFB648521A6E1ED2F6DEDB861C5B /* BeginWith.swift */,
+				D7695A89B43F19106782639DE7ED8187 /* BeGreaterThan.swift */,
+				4E21FB09AA98B434385BBE74E8F2D4AD /* BeGreaterThanOrEqualTo.swift */,
+				2AB64295FC38B8F277159EA9F841F4DE /* BeIdenticalTo.swift */,
+				4AB4AA55112C6D32D118DE0D6795F5CD /* BeLessThan.swift */,
+				6604E58F9E89BF90D1326B149F36B85C /* BeLessThanOrEqual.swift */,
+				62B6922D32148222519446D370422781 /* BeLogical.swift */,
+				180CA601FA229650BA62B300F4B6AAA0 /* BeNil.swift */,
+				E195344BC5AFAE8C8295A18B4FD124B4 /* BeVoid.swift */,
+				A795475059C96C592F3AB1DDCDFE9663 /* Contain.swift */,
+				1E82D173CFE344E02CC2012EAE9C0C36 /* ContainElementSatisfying.swift */,
+				C3757119814F9526B3DC8C32924BC90B /* CwlBadInstructionException.swift */,
+				22088E41C657F12AD48C35AE6EB4684F /* CwlCatchBadInstruction.swift */,
+				3E8980EDA22FD260D604EAB0BA4B6906 /* CwlCatchException.h */,
+				A9F1F27819D169D98BE2FA4F58E956AD /* CwlCatchException.m */,
+				0AC55269C88EEF6E31A56F3D887231BA /* CwlCatchException.swift */,
+				36AA458CC3BA8552103335DEC96CD110 /* CwlDarwinDefinitions.swift */,
+				10C27021470AD2904F5CB3BBA5DEDA9C /* CwlMachBadInstructionHandler.h */,
+				C93A46A8325120FA1E61C9170A35B34C /* CwlMachBadInstructionHandler.m */,
+				235407FF0E618012B9522D1DBC8A3433 /* CwlPreconditionTesting.h */,
+				5AFBC390BFC6E326C81BDB1BEA030DFB /* DSL.h */,
+				042AAB25DAC36463B2F14821256408C6 /* DSL.m */,
+				79BE4C3643EB76AB238E32EA49943A4E /* DSL.swift */,
+				7CA490C74446AAC4A997DAAF2F58E5BC /* DSL+Wait.swift */,
+				CD8DC97023F04D602D1D00F8F562B488 /* ElementsEqual.swift */,
+				B4CCB8B8DE1D6149B9571B1FFA808D38 /* EndWith.swift */,
+				668534ACD974D8F0B6387C836E24886F /* Equal.swift */,
+				12C6A8956556846A3F7A3316CAA5347F /* Errors.swift */,
+				EE6DBB7629DD13AC99A0D9031ED99663 /* Expectation.swift */,
+				343326D335CA2E9C2703B7DA62331336 /* ExpectationMessage.swift */,
+				928C872604270D7D7975040841E686CF /* Expression.swift */,
+				4F5B331691A4C1C080EC70E0F0FC27B2 /* FailureMessage.swift */,
+				F48D7CA5ADDF8EC29CFE74BFDD5487AB /* Functional.swift */,
+				B57AF134DC6E1EF167B263C886E7F073 /* HaveCount.swift */,
+				3E2F96C7799CCEF4750FDDD5599DB9EC /* mach_excServer.c */,
+				199E6ECAA7E165CC47089E40D6C7C1CD /* mach_excServer.h */,
+				152C66E2B28843C694040679FD4DA845 /* Match.swift */,
+				4A6A035BB7E4D0CFBD29D8FC84A71F86 /* MatcherFunc.swift */,
+				C88402F8F3DA582D37C01E836B1C53CC /* MatcherProtocols.swift */,
+				A121132583A6DE1E9041E2EE988627C7 /* MatchError.swift */,
+				03D67C82E53F06F48DC357261F44856D /* Nimble.h */,
+				6F1004586CBEA0F2DD5952B5B47A6456 /* NimbleEnvironment.swift */,
+				001E11563C6CA3D342A7063CE593D79E /* NimbleXCTestHandler.swift */,
+				19D1C50E2881B3AB754FC62B7F7EAF46 /* NMBExceptionCapture.h */,
+				E6F4882FA505DA150F4AD35C655B4B1A /* NMBExceptionCapture.m */,
+				AD15EB620AD3993EC928B785C2CF59B0 /* NMBExpectation.swift */,
+				F19F64B5DA74604CFE4C61AEDBD3F9A4 /* NMBObjCMatcher.swift */,
+				1F5AABFE251EE098C804DE6A6DCB8E87 /* NMBStringify.h */,
+				26C1E5570C071B54C5D1CF071449ACEA /* NMBStringify.m */,
+				E15E93209230FE869DB0570289E1C77C /* PostNotification.swift */,
+				2B3BA6BC8BD971E58956BDE394F172C6 /* Predicate.swift */,
+				2020A0C17D545B934F47627E9DB9E6BA /* RaisesException.swift */,
+				72F270E9E3E14E0E600CB2AD3406B30F /* SatisfyAllOf.swift */,
+				AAE96B062EB98E4A1785816CCD6AFD69 /* SatisfyAnyOf.swift */,
+				49B2A61670A44F273BACD1DB569EE717 /* SourceLocation.swift */,
+				6EC75411AD50B0E969E6BE888562DAFB /* Stringers.swift */,
+				6FB8B7673FA7BA90A950BDF6F4BF6C8B /* ThrowAssertion.swift */,
+				BE225C23AF912A4E4CE0B3361959ACE0 /* ThrowError.swift */,
+				4773AECD8093316043F3B7A0458CDE40 /* ToSucceed.swift */,
+				DDA6484610267CF51A308E3ACEAAD55B /* XCTestObservationCenter+Register.m */,
+				210590E8B47CD57AD1C95D676652E51B /* Support Files */,
+			);
+			name = Nimble;
+			path = Nimble;
+			sourceTree = "<group>";
+		};
+		210590E8B47CD57AD1C95D676652E51B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAF5974A40D7A453CD09D7C178B86FD8 /* Nimble.modulemap */,
+				1C322354E7834D3EA10595BC45A0DE31 /* Nimble.xcconfig */,
+				67CD5D8764C65D2AAFA3E66A8458BBEE /* Nimble-dummy.m */,
+				13D00CC73348F901148706CEDA5F3331 /* Nimble-Info.plist */,
+				AF70CDC2C9B27DE3F212D7BEAB697659 /* Nimble-prefix.pch */,
+				90083BE3DBC1EB8A16946EF0DFBF43E6 /* Nimble-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Nimble";
+			sourceTree = "<group>";
+		};
+		2165C790CC92156FB564CCAF21C7D18D /* NSelect */ = {
+			isa = PBXGroup;
+			children = (
+				04878209C6C3CBE8D6234A26CC027A9A /* DefaultNSelectView.swift */,
+				E8E0CF9C7997D1C0DE621CC51C302F95 /* NSelect.swift */,
+				E3841774B11B2DDB711D9512FCB14CEF /* NSelectError.swift */,
+				37BCFADA506E77707D8A9568CCB3E3B4 /* NSelectMode.swift */,
+				F03F87E54905507799EDFC9A24A2273A /* NSelectView.swift */,
+				F1655BC6ECDDC634B70EFF9F13E57489 /* Support Files */,
+			);
+			name = NSelect;
+			path = NSelect;
+			sourceTree = "<group>";
+		};
+		2DE0D72B04E5C754FEFC6EC963494D85 /* Pods-NSelectViewCheckBox_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				05CC17608719113A73F4AB719A0A7191 /* Pods-NSelectViewCheckBox_Tests.modulemap */,
+				983AEACB95CDD5EC26524C71B741F70E /* Pods-NSelectViewCheckBox_Tests-acknowledgements.markdown */,
+				8B72C548464FA7917895E6C8DBEE3A51 /* Pods-NSelectViewCheckBox_Tests-acknowledgements.plist */,
+				991EE31F3F5E9E292AE8312DE0650FA4 /* Pods-NSelectViewCheckBox_Tests-dummy.m */,
+				552155E6978A5A4966A5C1F15337A988 /* Pods-NSelectViewCheckBox_Tests-frameworks.sh */,
+				D5C50AA9398302CC13E17DAB7A88AD96 /* Pods-NSelectViewCheckBox_Tests-Info.plist */,
+				A138E2CD0AAC45B5AE1F2217E5CD25AD /* Pods-NSelectViewCheckBox_Tests-umbrella.h */,
+				0EEE5B715DCBFDB1C8ED7ECB16CF05BD /* Pods-NSelectViewCheckBox_Tests.debug.xcconfig */,
+				381CDB20F877396A8A815936AC0BD122 /* Pods-NSelectViewCheckBox_Tests.release.xcconfig */,
+			);
+			name = "Pods-NSelectViewCheckBox_Tests";
+			path = "Target Support Files/Pods-NSelectViewCheckBox_Tests";
+			sourceTree = "<group>";
+		};
+		3D789E41122D013F30F814A80B685D97 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F791E8B092E1EC4F50F0836773214E35 /* NSelectViewCheckBox.modulemap */,
+				BBFF697FBEC2510180708D55931B9E9E /* NSelectViewCheckBox.xcconfig */,
+				0483936F97CD28D876FA22317922FA18 /* NSelectViewCheckBox-dummy.m */,
+				772B909638BCE81735B4BAFD52DFF4DE /* NSelectViewCheckBox-Info.plist */,
+				495C884BC2229B40345A09446778CAB1 /* NSelectViewCheckBox-prefix.pch */,
+				A2589EA888EEC628D95E0BAFEFE55C38 /* NSelectViewCheckBox-umbrella.h */,
+				0565A622E0D5A06B42E41950C985EEC4 /* ResourceBundle-NSelectViewCheckBox-NSelectViewCheckBox-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NSelectViewCheckBox";
+			sourceTree = "<group>";
+		};
+		4D5ED20D2E781B8EB8DE257536E7233E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				000E68EFEA7BCD6626F5D433073E0703 /* Quick.modulemap */,
+				7916BA4F31049A7721FCB34E71052EAB /* Quick.xcconfig */,
+				1ED754BAAF6F373C3E8B0C36749D9E81 /* Quick-dummy.m */,
+				93FC65B4111B397F6DAA49612A34F9EC /* Quick-Info.plist */,
+				4CC69DF23CDDB1C00B192F297A4D0FB0 /* Quick-prefix.pch */,
+				C78E244200C4727195CD48A3BAE7EFF7 /* Quick-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Quick";
+			sourceTree = "<group>";
+		};
+		4DA65C132E6B28FCB1821B645837873E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D35F1DF263DF65889C43BE21CAA09A9E /* ic_check_3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		50396DADA87777A7DD8339316026B0D3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DFCD86B79BA1143458B0F66C68BBE3EA /* NSelectViewCheckBox */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5A52B0AE6F67D853DCC091C3C340D923 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAB97D66F802BA5410B7FBB7A704AF80 /* Pods-NSelectViewCheckBox_Example */,
+				2DE0D72B04E5C754FEFC6EC963494D85 /* Pods-NSelectViewCheckBox_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		65D22D3CF68929FF05B56AB026745240 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				262691A30281709396F46805775659B3 /* UIRadioButton.modulemap */,
+				928B5498C305DB1DF8671D00CA42D48E /* UIRadioButton.xcconfig */,
+				A60871016242E4B9C13B2B3203637393 /* UIRadioButton-dummy.m */,
+				9B2E567A21D5A211A4F192301FA1598E /* UIRadioButton-Info.plist */,
+				CDE63A95831C87386C3E180894CB37E8 /* UIRadioButton-prefix.pch */,
+				F7DE95344475AE8FCD15487421DC5626 /* UIRadioButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UIRadioButton";
+			sourceTree = "<group>";
+		};
+		AAB97D66F802BA5410B7FBB7A704AF80 /* Pods-NSelectViewCheckBox_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F2B221C3EB055DE4B1D1B27A0F831507 /* Pods-NSelectViewCheckBox_Example.modulemap */,
+				A0444F4FD23438C68A5725D341F257B1 /* Pods-NSelectViewCheckBox_Example-acknowledgements.markdown */,
+				5DF15B1F4096B38B03BA41BA68C2DC84 /* Pods-NSelectViewCheckBox_Example-acknowledgements.plist */,
+				554003637FB8412997476315F16800AD /* Pods-NSelectViewCheckBox_Example-dummy.m */,
+				23C244809374DAF809749F0072DAA471 /* Pods-NSelectViewCheckBox_Example-frameworks.sh */,
+				917E2DF2841129AE5D5B47AB6F6D06F3 /* Pods-NSelectViewCheckBox_Example-Info.plist */,
+				B4BA870081D669926677CA882E1DEA43 /* Pods-NSelectViewCheckBox_Example-umbrella.h */,
+				4F870E24AF9A369C5D75D935DA93DB95 /* Pods-NSelectViewCheckBox_Example.debug.xcconfig */,
+				4DDEAAA3119318E69387024EC6227019 /* Pods-NSelectViewCheckBox_Example.release.xcconfig */,
+			);
+			name = "Pods-NSelectViewCheckBox_Example";
+			path = "Target Support Files/Pods-NSelectViewCheckBox_Example";
+			sourceTree = "<group>";
+		};
+		B1C2C93583F3342E630DD08FB0645C97 /* UIRadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				204924CA60300987534699B22C63C119 /* UIRadioButton.swift */,
+				BFA88C1D3AADE0D9E187AE615E0BD36F /* UIRadioButtonGroup.swift */,
+				65D22D3CF68929FF05B56AB026745240 /* Support Files */,
+			);
+			name = UIRadioButton;
+			path = UIRadioButton;
+			sourceTree = "<group>";
+		};
+		B1DAE6CC716DA9B2AF88E90AA446EEFD /* Quick */ = {
+			isa = PBXGroup;
+			children = (
+				FCA89996C8782FEDF50664871CF39634 /* Behavior.swift */,
+				5D8C5B37C5663ED8E72BB5E646189F18 /* Callsite.swift */,
+				92D72E3035379D7ABCC8956287B62267 /* Closures.swift */,
+				7A4F5AD29BDCA03D8969DB547EE96F00 /* Configuration.swift */,
+				3F957EE28B2106A523DCABB86FC16678 /* DSL.swift */,
+				520975D8A1D9B0219CC3B4DDC746E22B /* ErrorUtility.swift */,
+				2825A6C489F5AEFBA81E979D587B7CEC /* Example.swift */,
+				AC4435CB7CC9981891A502B7DF5AF3C7 /* ExampleGroup.swift */,
+				F84B10804F71D89D35914810FB10D695 /* ExampleHooks.swift */,
+				9E7B4AE3D538F6E1475B1C2B0C40BEEA /* ExampleMetadata.swift */,
+				929F5F3950A19EC71E25AF78D07FC715 /* Filter.swift */,
+				AFB4040387C82519FA65F4FB5A407AD4 /* HooksPhase.swift */,
+				A6A6A64D8694731B6735B44F53D40E30 /* NSBundle+CurrentTestBundle.swift */,
+				C1F7AEA41D32FCDD2BF3CB2D7B79ED6B /* QCKDSL.h */,
+				7585FFD3CE9B33F76914A5D9F29B4461 /* QCKDSL.m */,
+				318A845F971963BF690A5824B381DC08 /* Quick.h */,
+				D03C51D0EAB7AF5F88B1FE07EF3BCB8F /* QuickConfiguration.h */,
+				CBC423C0BB7C325E3807B422510E449A /* QuickConfiguration.m */,
+				4B9AB15CCEA769E46DF48AC94D253D42 /* QuickSelectedTestSuiteBuilder.swift */,
+				CFB7A96E8EE4B7287E4FA24CF3931E9B /* QuickSpec.h */,
+				5CA6461AAB2E3A6B1F0C7DE958505FE4 /* QuickSpec.m */,
+				ED2A65ED6BB0896167097E1B84BCF551 /* QuickSpecBase.h */,
+				1AB3750F282A1FCCD3533AE6FB978B7B /* QuickSpecBase.m */,
+				54A7FEB349EA948A289702FE248C5574 /* QuickTestSuite.swift */,
+				EFB0B73CD8042D22375F22EA32906C4D /* String+C99ExtendedIdentifier.swift */,
+				3527603C87A495EE423EAE433C139630 /* SuiteHooks.swift */,
+				3BC9C08D7B752D7F752AF81560333825 /* URL+FileName.swift */,
+				BC89783C115E6BA9BF7D6BFD498D794D /* World.swift */,
+				D73C7392987F95E09642B3452A688A59 /* World+DSL.swift */,
+				CEFF534938AC5EA5A2380B98718714AF /* XCTestSuite+QuickTestSuiteBuilder.m */,
+				4D5ED20D2E781B8EB8DE257536E7233E /* Support Files */,
+			);
+			name = Quick;
+			path = Quick;
+			sourceTree = "<group>";
+		};
+		B234616E5D647C534C667E8D24C3E061 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B7C099A352F57FC2C0D537F11310362 /* ResourceBundle-UICheckbox-UICheckbox.Swift-Info.plist */,
+				EB6C29CB9762138864D8C35BA1722401 /* UICheckbox.Swift.modulemap */,
+				B4D995C4DEAF4777A64C459E80A69FB1 /* UICheckbox.Swift.xcconfig */,
+				0604B275AD54B88AD62D3F040F09CDA7 /* UICheckbox.Swift-dummy.m */,
+				ACA63A49B2F7AE9A5161DC594B173351 /* UICheckbox.Swift-Info.plist */,
+				CC56B4869930760BFAA513EF06E169B9 /* UICheckbox.Swift-prefix.pch */,
+				AAD5AB951258A8D003494CC73C786FF4 /* UICheckbox.Swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UICheckbox.Swift";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				50396DADA87777A7DD8339316026B0D3 /* Development Pods */,
+				E11145AACB303CBB0801A27A6127C34D /* Frameworks */,
+				FEC76FDC71C3D598956537F74A217FBA /* Pods */,
+				DD00E37D1C82A213C5225B1465E91A26 /* Products */,
+				5A52B0AE6F67D853DCC091C3C340D923 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D28763AB73952882CEFA5A93B21ABBC7 /* UICheckbox.Swift */ = {
+			isa = PBXGroup;
+			children = (
+				AF3EC73D4B42C5260B9187FD027282B3 /* UICheckbox.swift */,
+				4DA65C132E6B28FCB1821B645837873E /* Resources */,
+				B234616E5D647C534C667E8D24C3E061 /* Support Files */,
+			);
+			name = UICheckbox.Swift;
+			path = UICheckbox.Swift;
+			sourceTree = "<group>";
+		};
+		DD00E37D1C82A213C5225B1465E91A26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAE263041362D074978BB3B577DF0A05 /* Nimble.framework */,
+				F2E3FF50F7DF03C2F60B3A52BA4166A9 /* NSelect.framework */,
+				8B1BE1EFB2FDD8BA29B6F6975103FF70 /* NSelectViewCheckBox.bundle */,
+				53B74A2179222D36C93A182B9A7EB775 /* NSelectViewCheckBox.framework */,
+				2C0DF1AD75AE579CACC0A8CEFB1B5A48 /* Pods_NSelectViewCheckBox_Example.framework */,
+				FE0B90D3599F864928AD7EA1A9FED3A8 /* Pods_NSelectViewCheckBox_Tests.framework */,
+				0D631E9908483F9525A6B3F36F16CC61 /* Quick.framework */,
+				409EB0D18610374410BB451788A68009 /* UICheckbox.bundle */,
+				9CD61011146A57B7BFBEC82971828294 /* UICheckbox_Swift.framework */,
+				0D8AECF4F9D8DC4E688C7418774654B4 /* UIRadioButton.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFCD86B79BA1143458B0F66C68BBE3EA /* NSelectViewCheckBox */ = {
+			isa = PBXGroup;
+			children = (
+				DDD07D4696FFEC3BCCEC23235D232A07 /* NSelectViewCheckBox.swift */,
+				7E25FDD4CF4645D25AFDC02A4E902FC4 /* OptionViewCell.swift */,
+				FAC7F4E8A256578C22EA95736EC0F891 /* Pod */,
+				012028EF26CEDE773FCE67C8FCF3B8B7 /* Resources */,
+				3D789E41122D013F30F814A80B685D97 /* Support Files */,
+			);
+			name = NSelectViewCheckBox;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E11145AACB303CBB0801A27A6127C34D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0B555CB3EAC5BE0AE1E8C9E2300707C /* NSelect.framework */,
+				E6F6171E8227F76B24E4BD1A99F1F39B /* UICheckbox_Swift.framework */,
+				B48B24B3741800B7CA624624F6E1D06C /* UIRadioButton.framework */,
+				EB33A7A2C233349179DFD4D091EAA334 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB33A7A2C233349179DFD4D091EAA334 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8503B2AFE4FD9D644838EB2CCB2098AD /* Foundation.framework */,
+				157C5BC212C2E64AE2014D0827AF00A5 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F1655BC6ECDDC634B70EFF9F13E57489 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4ACDD5309E0A018875BFA658CCDE7079 /* NSelect.modulemap */,
+				297E0F38BA8CCC59AFE47906ED32DBA3 /* NSelect.xcconfig */,
+				C90521C818C62B06DB5ACF5FAF5D16DE /* NSelect-dummy.m */,
+				C715E00FEE042A62C10A641292FC1687 /* NSelect-Info.plist */,
+				25185C14A885AAE5F8C620E71EEEFD66 /* NSelect-prefix.pch */,
+				6D6AA723FDB7DB0581B08AD07886C51D /* NSelect-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NSelect";
+			sourceTree = "<group>";
+		};
+		FAC7F4E8A256578C22EA95736EC0F891 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E8D2EF7E459C3C63C14F15D1832441A2 /* LICENSE */,
+				13869CA9D207D3020BE5FBF77581A95D /* NSelectViewCheckBox.podspec */,
+				1CB21C58A4433A360B2587116620E9F5 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FEC76FDC71C3D598956537F74A217FBA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B5828F665E2C436F7FD4CD3ADB58093 /* Nimble */,
+				2165C790CC92156FB564CCAF21C7D18D /* NSelect */,
+				B1DAE6CC716DA9B2AF88E90AA446EEFD /* Quick */,
+				D28763AB73952882CEFA5A93B21ABBC7 /* UICheckbox.Swift */,
+				B1C2C93583F3342E630DD08FB0645C97 /* UIRadioButton */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		12116C19E5004B4F3BFC87D5D088E0A8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D42A9F0569266AEA55E0C20D791C5C0D /* Pods-NSelectViewCheckBox_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27D5FD89525F2E59390840B6A54BE410 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A789C449E94E99D9060FA21239F0DF02 /* NSelect-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BA2868F6E7E28AF2645C34001748DF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A89D835780B2E8EF49E907B10915BF6 /* Pods-NSelectViewCheckBox_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B9E748BB7F4A79FA5923C5C14C6130C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4355729F17DB1BDD3A3817F2C0B80DBA /* UICheckbox.Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51A00ABBA2BEF3913A4628399CEBD45B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				221ED892E5138A00F3CDF540E914519D /* CwlCatchException.h in Headers */,
+				9F70369EF71BD9ABAFF687AF532CC20D /* CwlMachBadInstructionHandler.h in Headers */,
+				19BA8AF46D9CC49E3E2CEDCAF6354442 /* CwlPreconditionTesting.h in Headers */,
+				C051C0411627BD5FCDA031782EB1F716 /* DSL.h in Headers */,
+				3BD0C370BBCEBDEA68B8EDBD969370EB /* mach_excServer.h in Headers */,
+				CD6B1F146B0E157FE5B9CAFFAE77A5B5 /* Nimble-umbrella.h in Headers */,
+				9BB5E9B6487FE95C710687B484C17161 /* Nimble.h in Headers */,
+				8D17749611AB0C8BD51C068749D8DF68 /* NMBExceptionCapture.h in Headers */,
+				E0EAC85F7ACFAD998B14FCE66144000E /* NMBStringify.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FCB02E5FF9026256E830A4823A972E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B5E89E722376273EED9CCDA9F0EDBDC /* NSelectViewCheckBox-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3EC9092F61BD757267FD6009C275C5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C912897D77798A90873A3DAD8A4BDC50 /* QCKDSL.h in Headers */,
+				BD379F95293A811D8E591CAC8E9FF410 /* Quick-umbrella.h in Headers */,
+				A9BF211D24462D531E278F2AE317AEA4 /* Quick.h in Headers */,
+				34EA8D74C57BC1A6AC8C0A5B5267E56C /* QuickConfiguration.h in Headers */,
+				D755642ECA73CFE2E4C31CDD0DFBA42E /* QuickSpec.h in Headers */,
+				403F837F9B4AC86C901D238D847A767A /* QuickSpecBase.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0721F6C346788B09A3103629000A297 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B08A260C6A3A78909FEC971C99A85481 /* UIRadioButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0858C1D535211C314CA11A07F3E6A56B /* UIRadioButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 373BBF4C9B194B7C827DD216E957D2B6 /* Build configuration list for PBXNativeTarget "UIRadioButton" */;
+			buildPhases = (
+				F0721F6C346788B09A3103629000A297 /* Headers */,
+				7B30A4061090193EE3DA2CEF8A31CCF8 /* Sources */,
+				E40ECE301F505919EB7153173A5B943F /* Frameworks */,
+				C6E5911EFA6EA5AF9CE09D3D377FC40D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIRadioButton;
+			productName = UIRadioButton;
+			productReference = 0D8AECF4F9D8DC4E688C7418774654B4 /* UIRadioButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		472C2B6708BC6940A0BFF9A4A56547D5 /* UICheckbox.Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8A1D1EE227180921AC269CB16504138 /* Build configuration list for PBXNativeTarget "UICheckbox.Swift" */;
+			buildPhases = (
+				4B9E748BB7F4A79FA5923C5C14C6130C /* Headers */,
+				E70565F71F4BC45F3BA30E5F894F438D /* Sources */,
+				5C42D7CEDCB369F3BAB4BE89974E980C /* Frameworks */,
+				C9752F11C85B0E8B7AA2A1006A6897A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDA80C7A37B2B8AA5B0D42C7240610F2 /* PBXTargetDependency */,
+			);
+			name = UICheckbox.Swift;
+			productName = UICheckbox.Swift;
+			productReference = 9CD61011146A57B7BFBEC82971828294 /* UICheckbox_Swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4B62A664E4E36C2BDFCA657881B2E56B /* Pods-NSelectViewCheckBox_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E980835EA03F8E0830504BEC05FC9B95 /* Build configuration list for PBXNativeTarget "Pods-NSelectViewCheckBox_Example" */;
+			buildPhases = (
+				45BA2868F6E7E28AF2645C34001748DF /* Headers */,
+				15A8BA77EA7B8C2479B90238D8C36EBA /* Sources */,
+				4DE9407A21190933FC64B0FE438EA28C /* Frameworks */,
+				B09C65BA766C7AB70DFD4FE89FFFC6C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11ED3537DC86A022D840DADBF9B90838 /* PBXTargetDependency */,
+				F1A5A0CB63A92CBAC4D092A5D27538F9 /* PBXTargetDependency */,
+				A1A85EB03228991DEA2A53F14CE8716F /* PBXTargetDependency */,
+				B4C0DB508E7E6C8AA416A0AB9814E8DC /* PBXTargetDependency */,
+			);
+			name = "Pods-NSelectViewCheckBox_Example";
+			productName = "Pods-NSelectViewCheckBox_Example";
+			productReference = 2C0DF1AD75AE579CACC0A8CEFB1B5A48 /* Pods_NSelectViewCheckBox_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		56BEB826D68D9E057C957D3B36535081 /* UICheckbox.Swift-UICheckbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E8C83355CFF95DEFC151A7B1353CFF0 /* Build configuration list for PBXNativeTarget "UICheckbox.Swift-UICheckbox" */;
+			buildPhases = (
+				75E647BD4D84EA700182808B515EBC25 /* Sources */,
+				77BEDC9050A86C82FBD0ED492F4532FD /* Frameworks */,
+				DE5609B12AD65777E0BB18F64567C5D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UICheckbox.Swift-UICheckbox";
+			productName = "UICheckbox.Swift-UICheckbox";
+			productReference = 409EB0D18610374410BB451788A68009 /* UICheckbox.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		576F9B3501CAA04229E716A7D9CFD433 /* Pods-NSelectViewCheckBox_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6F15F55BE91F2326A2266985EB0D2FF /* Build configuration list for PBXNativeTarget "Pods-NSelectViewCheckBox_Tests" */;
+			buildPhases = (
+				12116C19E5004B4F3BFC87D5D088E0A8 /* Headers */,
+				4408D9630F93A56AF3527466A3CB7E4D /* Sources */,
+				E525467F43A47B3324907DF1E592809A /* Frameworks */,
+				9BC952BD1F48392DD0462798BFCFF427 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C1E59541D0BE6DF68F1F8E007976645 /* PBXTargetDependency */,
+				1086BA71CF2787E0E4877C4A9B9F19D6 /* PBXTargetDependency */,
+				1CC1B8459017F8A2AE236784D4F23ADC /* PBXTargetDependency */,
+			);
+			name = "Pods-NSelectViewCheckBox_Tests";
+			productName = "Pods-NSelectViewCheckBox_Tests";
+			productReference = FE0B90D3599F864928AD7EA1A9FED3A8 /* Pods_NSelectViewCheckBox_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		685E1BC9BB429AD5A3BEF146E70C8967 /* NSelectViewCheckBox-NSelectViewCheckBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BB00A6BE7352AD156D0FF52DB618C58 /* Build configuration list for PBXNativeTarget "NSelectViewCheckBox-NSelectViewCheckBox" */;
+			buildPhases = (
+				59859E2510E99910DDB8DEB23BF0FFAE /* Sources */,
+				29EAD0AD8031D388A8973D6A1FD1728D /* Frameworks */,
+				DFB96A43336CD8B75B8921D6DF19C70B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSelectViewCheckBox-NSelectViewCheckBox";
+			productName = "NSelectViewCheckBox-NSelectViewCheckBox";
+			productReference = 8B1BE1EFB2FDD8BA29B6F6975103FF70 /* NSelectViewCheckBox.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		6F13695E06195A78EA8A95F8C7ED0D2F /* Nimble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AC65E53333ACA93EEB1D8EBAB58CBB6 /* Build configuration list for PBXNativeTarget "Nimble" */;
+			buildPhases = (
+				51A00ABBA2BEF3913A4628399CEBD45B /* Headers */,
+				93148D79A740F4B754DE9E0E1574F3B8 /* Sources */,
+				55C81EE76C6A69F1F69792A679310C68 /* Frameworks */,
+				D7EBE1F47ACC336A60ED6056AF3261E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nimble;
+			productName = Nimble;
+			productReference = BAE263041362D074978BB3B577DF0A05 /* Nimble.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		790782A8F40B9CBEFEBC2009CCB39E47 /* NSelect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6E3EACEE32C421F3816744B1E4720A1 /* Build configuration list for PBXNativeTarget "NSelect" */;
+			buildPhases = (
+				27D5FD89525F2E59390840B6A54BE410 /* Headers */,
+				D63CDABCB20AC68689A48554DB115F97 /* Sources */,
+				FFCC09E738F1973144F0890815FBD310 /* Frameworks */,
+				267521FF1522E07A8A250695221BD59B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSelect;
+			productName = NSelect;
+			productReference = F2E3FF50F7DF03C2F60B3A52BA4166A9 /* NSelect.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C82891EAB7293DBEE916B21F57E8474D /* Quick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A482E8F0F5BEDCE177543007D23A5736 /* Build configuration list for PBXNativeTarget "Quick" */;
+			buildPhases = (
+				EC3EC9092F61BD757267FD6009C275C5 /* Headers */,
+				136DF40C78936E93F18221E82F6F44BD /* Sources */,
+				D9523B817C92EFD8BCE3CDE77F54908E /* Frameworks */,
+				42E082BE7328DA6969AECE264ACD14E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quick;
+			productName = Quick;
+			productReference = 0D631E9908483F9525A6B3F36F16CC61 /* Quick.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DEB3AC626D6D329D1C51CC4B4900A4FF /* NSelectViewCheckBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75EFB0A0AA780C2107BB48AB633BCD5C /* Build configuration list for PBXNativeTarget "NSelectViewCheckBox" */;
+			buildPhases = (
+				5FCB02E5FF9026256E830A4823A972E9 /* Headers */,
+				1283DDB8D2F688641E5AF0A231823290 /* Sources */,
+				C268C9C1AC149FB8D0A59EA145A74D17 /* Frameworks */,
+				D7A4302950F9B73C025B4DB3393FAE47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1CB1EC25033188E2A83A9BDAFF8C8D6 /* PBXTargetDependency */,
+				9D994879A7C2530CD0A3F7E35F4B8E7F /* PBXTargetDependency */,
+				65F00245DA235F132164EB8D15482CB9 /* PBXTargetDependency */,
+				3BD9B6B4059BEC731F7893C1AC73F0A1 /* PBXTargetDependency */,
+			);
+			name = NSelectViewCheckBox;
+			productName = NSelectViewCheckBox;
+			productReference = 53B74A2179222D36C93A182B9A7EB775 /* NSelectViewCheckBox.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DD00E37D1C82A213C5225B1465E91A26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F13695E06195A78EA8A95F8C7ED0D2F /* Nimble */,
+				790782A8F40B9CBEFEBC2009CCB39E47 /* NSelect */,
+				DEB3AC626D6D329D1C51CC4B4900A4FF /* NSelectViewCheckBox */,
+				685E1BC9BB429AD5A3BEF146E70C8967 /* NSelectViewCheckBox-NSelectViewCheckBox */,
+				4B62A664E4E36C2BDFCA657881B2E56B /* Pods-NSelectViewCheckBox_Example */,
+				576F9B3501CAA04229E716A7D9CFD433 /* Pods-NSelectViewCheckBox_Tests */,
+				C82891EAB7293DBEE916B21F57E8474D /* Quick */,
+				472C2B6708BC6940A0BFF9A4A56547D5 /* UICheckbox.Swift */,
+				56BEB826D68D9E057C957D3B36535081 /* UICheckbox.Swift-UICheckbox */,
+				0858C1D535211C314CA11A07F3E6A56B /* UIRadioButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		267521FF1522E07A8A250695221BD59B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42E082BE7328DA6969AECE264ACD14E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BC952BD1F48392DD0462798BFCFF427 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B09C65BA766C7AB70DFD4FE89FFFC6C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6E5911EFA6EA5AF9CE09D3D377FC40D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9752F11C85B0E8B7AA2A1006A6897A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D17E2A1349188E2428A6943D98ACB81 /* UICheckbox.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A4302950F9B73C025B4DB3393FAE47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9548BF3D9743DCF3FB7AEB2C6B5B7808 /* NSelectViewCheckBox.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7EBE1F47ACC336A60ED6056AF3261E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5609B12AD65777E0BB18F64567C5D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C1D13343BB3E8478F34D58CD9DF4409 /* ic_check_3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB96A43336CD8B75B8921D6DF19C70B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC5D08DE2F9BD9E57AC5BD5B839C59C7 /* NSelectViewCheckBox.xib in Resources */,
+				6D11E93FCF373BA0839EAD7D8138885C /* OptionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1283DDB8D2F688641E5AF0A231823290 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39F8807ABB21EC90A61F205DD7C23CEC /* NSelectViewCheckBox-dummy.m in Sources */,
+				2DCC6A33347B8C66F62C3F434C16A2FB /* NSelectViewCheckBox.swift in Sources */,
+				758392518BCF1B22844118CD06DF0A22 /* OptionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		136DF40C78936E93F18221E82F6F44BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D4616DF525ABD0252D193F5BA743A50 /* Behavior.swift in Sources */,
+				85422F9681ED8BD7F202AADFF984AB7E /* Callsite.swift in Sources */,
+				DD8395B1CE9CE0B9C0CE0B78548399BF /* Closures.swift in Sources */,
+				CE95FB405CED399302F548EF6942237B /* Configuration.swift in Sources */,
+				7B850567629B2D5D69E5A3C8FB2E78DC /* DSL.swift in Sources */,
+				17A60050B2AC439E06E7EE6F41498D68 /* ErrorUtility.swift in Sources */,
+				78FFCCAAB7E4E3BDAFEE11D4866ACBE6 /* Example.swift in Sources */,
+				F20F4FD591D44AEF205D430634E831AC /* ExampleGroup.swift in Sources */,
+				C6ECA878004B8F1C29D3261FF16C03EA /* ExampleHooks.swift in Sources */,
+				F55864EA43601C1FB2C91902C821DC28 /* ExampleMetadata.swift in Sources */,
+				D4EA991AF81BE9CAC9F6432B9EEC759A /* Filter.swift in Sources */,
+				0BAE0AFD3073EF4AAC1F319DB1606A49 /* HooksPhase.swift in Sources */,
+				493E310F883F729B80641EA81E0748A8 /* NSBundle+CurrentTestBundle.swift in Sources */,
+				933C82B8E2DBE50877081F728440D8B3 /* QCKDSL.m in Sources */,
+				F4A88834AB5D40F416506DE9B755ACEE /* Quick-dummy.m in Sources */,
+				5FEE4A3A45D78BD01B9DCCC1414E841A /* QuickConfiguration.m in Sources */,
+				8BEB0F1E158BDEBDC0F222A322BCC01F /* QuickSelectedTestSuiteBuilder.swift in Sources */,
+				1F64B2056A0CA58BF41B575E90531E1B /* QuickSpec.m in Sources */,
+				C41A76A4CEAEEFF91BE6C021997C0001 /* QuickSpecBase.m in Sources */,
+				10485AF741B65205DBE44831B46C5237 /* QuickTestSuite.swift in Sources */,
+				917ABD6922CF6ABC8A15DB90DF33F023 /* String+C99ExtendedIdentifier.swift in Sources */,
+				53FF98ECE1A11652A11093EBFD28290F /* SuiteHooks.swift in Sources */,
+				DA7CF0419F4244EC381F2AB10EC5421B /* URL+FileName.swift in Sources */,
+				2E8E8759CD6EE4EACB4E3902A244F69B /* World+DSL.swift in Sources */,
+				0DB85B6FB6AE28DA34DE79DDDFD6A962 /* World.swift in Sources */,
+				014A4817351C11019FB222EA16E73787 /* XCTestSuite+QuickTestSuiteBuilder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15A8BA77EA7B8C2479B90238D8C36EBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C9DA77EA1011954CFDEFAD32A269B4 /* Pods-NSelectViewCheckBox_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4408D9630F93A56AF3527466A3CB7E4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8792D6BC8EE16D86083F16D43E1E65A /* Pods-NSelectViewCheckBox_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59859E2510E99910DDB8DEB23BF0FFAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E647BD4D84EA700182808B515EBC25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B30A4061090193EE3DA2CEF8A31CCF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7CF046A8F741866D2B1E9ED4E70D263 /* UIRadioButton-dummy.m in Sources */,
+				1B3403A0E001B55D67F0C95E54C8C58D /* UIRadioButton.swift in Sources */,
+				177A72071D7E65A9C83C7ECF10C04E9D /* UIRadioButtonGroup.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93148D79A740F4B754DE9E0E1574F3B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D346102261430008A78C8E54905E68F2 /* AdapterProtocols.swift in Sources */,
+				A333C8F11B3337CB7FCA6ACAA20919F8 /* AllPass.swift in Sources */,
+				57DAE6ED12EDA7C7234F2F1A422AD8BC /* AssertionDispatcher.swift in Sources */,
+				7AFB2A4868895FEEABA1EA8EBA80F4F1 /* AssertionRecorder.swift in Sources */,
+				23B929016459822A57FF4F84DC6000B5 /* Async.swift in Sources */,
+				C732FD7C66AEA96BC61C0B105CE16376 /* Await.swift in Sources */,
+				41B2F632A375DCF59B4D65567E59FCD3 /* BeAKindOf.swift in Sources */,
+				0244025E5F4CE4060978D034CF740810 /* BeAnInstanceOf.swift in Sources */,
+				646E7E1E9D3F4663D9CE23FF0231F80C /* BeCloseTo.swift in Sources */,
+				535416689ADDB151B7A6B4BF1435C984 /* BeEmpty.swift in Sources */,
+				25390BCB7E708FE600AA7903982238CD /* BeginWith.swift in Sources */,
+				7EB823DCBD13FBF9DD72D1BA97FF9D71 /* BeGreaterThan.swift in Sources */,
+				D7DD35ED5A306AC529590AAE0B79F2BE /* BeGreaterThanOrEqualTo.swift in Sources */,
+				8C36F62A65EF1B4D80DDF5191EC943BF /* BeIdenticalTo.swift in Sources */,
+				80DE0FCB42B465CF0F9C391D6F78732D /* BeLessThan.swift in Sources */,
+				1619CC5DF835D29CFE745C443B8728DD /* BeLessThanOrEqual.swift in Sources */,
+				5100B743B7B3EC774D052AB45F58C9A9 /* BeLogical.swift in Sources */,
+				A545FDFDE03E09328983281E9396D287 /* BeNil.swift in Sources */,
+				066719F150BB45B3E4430CDF5FB1403A /* BeVoid.swift in Sources */,
+				AD841E0C41DF45D2E086A203BB265762 /* Contain.swift in Sources */,
+				C147B29A97ACEC6639FC0D3CDAA6BA64 /* ContainElementSatisfying.swift in Sources */,
+				50655497550E397B95A35501CCF28D8D /* CwlBadInstructionException.swift in Sources */,
+				71EC482B285F78B50C0C093F41E8DC87 /* CwlCatchBadInstruction.swift in Sources */,
+				0CCF72769464C214E6268ACFCFE1EBFD /* CwlCatchException.m in Sources */,
+				A25E62A3FD894EDEB3150A46C8D3A3D4 /* CwlCatchException.swift in Sources */,
+				1A42C3390A0AD0F6F1C58237517D463B /* CwlDarwinDefinitions.swift in Sources */,
+				4E1C1DD9CFC24D9FBDA23F927CA73196 /* CwlMachBadInstructionHandler.m in Sources */,
+				B7097E9992DFF704E16BAFC3FBDCC287 /* DSL+Wait.swift in Sources */,
+				CD5123F817D58D46FCAF8103A818EFDC /* DSL.m in Sources */,
+				71F9C34DC1AFED7BD3C27F6D3C99D1AB /* DSL.swift in Sources */,
+				6087BDAB63A7B0C8D643145A58DE0598 /* ElementsEqual.swift in Sources */,
+				A8A524C1C48219643DE7E2EAE36BD7D3 /* EndWith.swift in Sources */,
+				42C4D2CAA790780B1F5ADBF8A1536223 /* Equal.swift in Sources */,
+				31C781D9B2FB24F1C63EF944A8D10665 /* Errors.swift in Sources */,
+				19756A88FFFBE4639A1FB65D8367C01B /* Expectation.swift in Sources */,
+				A7867BF922CA2954E6929C98B486B000 /* ExpectationMessage.swift in Sources */,
+				DDB5F5FBFFF5CB20A648FB45EB00490C /* Expression.swift in Sources */,
+				2F5DD8E51F5E37611F72EAA6D30DD1E2 /* FailureMessage.swift in Sources */,
+				11BB30DF8A2490E38059737170227988 /* Functional.swift in Sources */,
+				A9195203B4E2CE96CEFE4C5BA927512C /* HaveCount.swift in Sources */,
+				54D6650C6B0F612CC9B2DCE2A128CFBA /* mach_excServer.c in Sources */,
+				A47730695C36FCFB46492D571D65058D /* Match.swift in Sources */,
+				B31AB226691794D80D6B4164F615F941 /* MatcherFunc.swift in Sources */,
+				33A73C721E2CD8AA8D1029AEF325CC2F /* MatcherProtocols.swift in Sources */,
+				CA958DBAA5F69BBB7FABA426CF2898E9 /* MatchError.swift in Sources */,
+				D24C4AA23C22701D3D65541B337F1AC4 /* Nimble-dummy.m in Sources */,
+				89202ED7A199568C27625984E30B0A7E /* NimbleEnvironment.swift in Sources */,
+				D9AD266DDADA8DCB08B476BE5034B65F /* NimbleXCTestHandler.swift in Sources */,
+				3E367F36AF797374E9BA528A4790F5FB /* NMBExceptionCapture.m in Sources */,
+				C16CDA92867234C2253A914F7D2488B1 /* NMBExpectation.swift in Sources */,
+				2396790A402C07B516B64FA83B004FEF /* NMBObjCMatcher.swift in Sources */,
+				325DE03B3B111B85F78DB900A84EC7C8 /* NMBStringify.m in Sources */,
+				1E33FCBEF60178365211641F986F212D /* PostNotification.swift in Sources */,
+				369291BB5E6EC2524C842F7B5381731F /* Predicate.swift in Sources */,
+				8D9F157A5FCC82D1D09C419070376C12 /* RaisesException.swift in Sources */,
+				493A4962D778D034EAA172A01B776E19 /* SatisfyAllOf.swift in Sources */,
+				952E443F85653A8A1767339BBD329B18 /* SatisfyAnyOf.swift in Sources */,
+				CC4D4A58D5696C431EA499C04B436F5F /* SourceLocation.swift in Sources */,
+				09670BDC554A2BD2DA6ECBFECCF48DDE /* Stringers.swift in Sources */,
+				A7EE275B9E3A5469E158340F0EC5D1D6 /* ThrowAssertion.swift in Sources */,
+				2DBF35E81CA291E0A68E593F2AB4321C /* ThrowError.swift in Sources */,
+				C31925A89D60BE7F1B25379A5DE8AE8C /* ToSucceed.swift in Sources */,
+				123A3221A5BC50497EE0F7A3F0694B2F /* XCTestObservationCenter+Register.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63CDABCB20AC68689A48554DB115F97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C20A55022F75255BB06EC71BDD165600 /* DefaultNSelectView.swift in Sources */,
+				118E557837BEC5B3B11AAD06AF8CD2C9 /* NSelect-dummy.m in Sources */,
+				0FA2EC5D5EC079A3059EA23643566309 /* NSelect.swift in Sources */,
+				CCDC4EAEB919DED1B6BF8D861A2D3F5A /* NSelectError.swift in Sources */,
+				F175D7DB08C9EDE179A8402684974BDF /* NSelectMode.swift in Sources */,
+				DC50ECE5D1DDB08CDCFF759DE39BF2E5 /* NSelectView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70565F71F4BC45F3BA30E5F894F438D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBBE46F0FBC863C9D7CB317BCE8C4AC3 /* UICheckbox.swift in Sources */,
+				8F30585544441090200E79CEF3ABCE29 /* UICheckbox.Swift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1086BA71CF2787E0E4877C4A9B9F19D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NSelectViewCheckBox_Example";
+			target = 4B62A664E4E36C2BDFCA657881B2E56B /* Pods-NSelectViewCheckBox_Example */;
+			targetProxy = 862771E991F2504D65B1478BE4475C71 /* PBXContainerItemProxy */;
+		};
+		11ED3537DC86A022D840DADBF9B90838 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NSelect;
+			target = 790782A8F40B9CBEFEBC2009CCB39E47 /* NSelect */;
+			targetProxy = 4C7132BC62E19ED85A906AC22C9DD0EF /* PBXContainerItemProxy */;
+		};
+		1C1E59541D0BE6DF68F1F8E007976645 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Nimble;
+			target = 6F13695E06195A78EA8A95F8C7ED0D2F /* Nimble */;
+			targetProxy = 94C6E78A3262B946EE7202EBAFBD644C /* PBXContainerItemProxy */;
+		};
+		1CC1B8459017F8A2AE236784D4F23ADC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Quick;
+			target = C82891EAB7293DBEE916B21F57E8474D /* Quick */;
+			targetProxy = FFFB83F9E7E71F76DFE28357F8A25E43 /* PBXContainerItemProxy */;
+		};
+		3BD9B6B4059BEC731F7893C1AC73F0A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UIRadioButton;
+			target = 0858C1D535211C314CA11A07F3E6A56B /* UIRadioButton */;
+			targetProxy = 972E2DCD07C8CFC7EBA2F91B6790B793 /* PBXContainerItemProxy */;
+		};
+		65F00245DA235F132164EB8D15482CB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UICheckbox.Swift;
+			target = 472C2B6708BC6940A0BFF9A4A56547D5 /* UICheckbox.Swift */;
+			targetProxy = EF4D90F7E49289E5771554A44ECBE336 /* PBXContainerItemProxy */;
+		};
+		9D994879A7C2530CD0A3F7E35F4B8E7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "NSelectViewCheckBox-NSelectViewCheckBox";
+			target = 685E1BC9BB429AD5A3BEF146E70C8967 /* NSelectViewCheckBox-NSelectViewCheckBox */;
+			targetProxy = A5CE31C5EDA99DA61BBDF3A140AC8108 /* PBXContainerItemProxy */;
+		};
+		A1A85EB03228991DEA2A53F14CE8716F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UICheckbox.Swift;
+			target = 472C2B6708BC6940A0BFF9A4A56547D5 /* UICheckbox.Swift */;
+			targetProxy = 996733D52E33C86A1AC04F35479B8013 /* PBXContainerItemProxy */;
+		};
+		B4C0DB508E7E6C8AA416A0AB9814E8DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UIRadioButton;
+			target = 0858C1D535211C314CA11A07F3E6A56B /* UIRadioButton */;
+			targetProxy = DD33992B7066362199D98977AF968DE0 /* PBXContainerItemProxy */;
+		};
+		C1CB1EC25033188E2A83A9BDAFF8C8D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NSelect;
+			target = 790782A8F40B9CBEFEBC2009CCB39E47 /* NSelect */;
+			targetProxy = EA44FC27889C56FBBE15D4CD6B8ADAA2 /* PBXContainerItemProxy */;
+		};
+		DDA80C7A37B2B8AA5B0D42C7240610F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UICheckbox.Swift-UICheckbox";
+			target = 56BEB826D68D9E057C957D3B36535081 /* UICheckbox.Swift-UICheckbox */;
+			targetProxy = AF710B48EC9C7A5F1A3500492B8A5E8E /* PBXContainerItemProxy */;
+		};
+		F1A5A0CB63A92CBAC4D092A5D27538F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NSelectViewCheckBox;
+			target = DEB3AC626D6D329D1C51CC4B4900A4FF /* NSelectViewCheckBox */;
+			targetProxy = 102E25551D9FB482B8B0BC4C225BDC16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10CAADE6ADEAA7F02A96DBED35AA4E02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 928B5498C305DB1DF8671D00CA42D48E /* UIRadioButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UIRadioButton/UIRadioButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIRadioButton/UIRadioButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIRadioButton/UIRadioButton.modulemap";
+				PRODUCT_MODULE_NAME = UIRadioButton;
+				PRODUCT_NAME = UIRadioButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2B97AAEB7D1FDE6D4B07BF670C62E4BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4D995C4DEAF4777A64C459E80A69FB1 /* UICheckbox.Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UICheckbox.Swift/UICheckbox.Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UICheckbox.Swift/UICheckbox.Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UICheckbox.Swift/UICheckbox.Swift.modulemap";
+				PRODUCT_MODULE_NAME = UICheckbox_Swift;
+				PRODUCT_NAME = UICheckbox_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		301FE9FE0194BECAB407F02A00B1D130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7916BA4F31049A7721FCB34E71052EAB /* Quick.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Quick/Quick-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Quick/Quick-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Quick/Quick.modulemap";
+				PRODUCT_MODULE_NAME = Quick;
+				PRODUCT_NAME = Quick;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		38CE653718EF394C2A76CC1EF7500AC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DDEAAA3119318E69387024EC6227019 /* Pods-NSelectViewCheckBox_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NSelectViewCheckBox_Example/Pods-NSelectViewCheckBox_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NSelectViewCheckBox_Example/Pods-NSelectViewCheckBox_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3DF05E3C21BE6C8FBE6DCB2F4E842A98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBFF697FBEC2510180708D55931B9E9E /* NSelectViewCheckBox.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NSelectViewCheckBox/NSelectViewCheckBox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NSelectViewCheckBox/NSelectViewCheckBox-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NSelectViewCheckBox/NSelectViewCheckBox.modulemap";
+				PRODUCT_MODULE_NAME = NSelectViewCheckBox;
+				PRODUCT_NAME = NSelectViewCheckBox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		435FEBAA4BD58A4EEF37A88786225C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C322354E7834D3EA10595BC45A0DE31 /* Nimble.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Nimble/Nimble-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Nimble/Nimble-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Nimble/Nimble.modulemap";
+				PRODUCT_MODULE_NAME = Nimble;
+				PRODUCT_NAME = Nimble;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		492DD7D5C68F7AC0159A1C6845C34790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EEE5B715DCBFDB1C8ED7ECB16CF05BD /* Pods-NSelectViewCheckBox_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NSelectViewCheckBox_Tests/Pods-NSelectViewCheckBox_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NSelectViewCheckBox_Tests/Pods-NSelectViewCheckBox_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		593DE36A7A461E4B2553B274A91CCAF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F870E24AF9A369C5D75D935DA93DB95 /* Pods-NSelectViewCheckBox_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NSelectViewCheckBox_Example/Pods-NSelectViewCheckBox_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NSelectViewCheckBox_Example/Pods-NSelectViewCheckBox_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		73091D5AB054F617558E9D403CA30A88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4D995C4DEAF4777A64C459E80A69FB1 /* UICheckbox.Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/UICheckbox.Swift";
+				INFOPLIST_FILE = "Target Support Files/UICheckbox.Swift/ResourceBundle-UICheckbox-UICheckbox.Swift-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = UICheckbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		78EEF7DDE88A11A524D98E784A78D983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBFF697FBEC2510180708D55931B9E9E /* NSelectViewCheckBox.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NSelectViewCheckBox/NSelectViewCheckBox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NSelectViewCheckBox/NSelectViewCheckBox-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NSelectViewCheckBox/NSelectViewCheckBox.modulemap";
+				PRODUCT_MODULE_NAME = NSelectViewCheckBox;
+				PRODUCT_NAME = NSelectViewCheckBox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		79250BA165394D8BB97D00EB8FA399F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7916BA4F31049A7721FCB34E71052EAB /* Quick.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Quick/Quick-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Quick/Quick-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Quick/Quick.modulemap";
+				PRODUCT_MODULE_NAME = Quick;
+				PRODUCT_NAME = Quick;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EBE926DE4AD126A545C327FF73FDF0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4D995C4DEAF4777A64C459E80A69FB1 /* UICheckbox.Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UICheckbox.Swift/UICheckbox.Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UICheckbox.Swift/UICheckbox.Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UICheckbox.Swift/UICheckbox.Swift.modulemap";
+				PRODUCT_MODULE_NAME = UICheckbox_Swift;
+				PRODUCT_NAME = UICheckbox_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8C62845D2D590A41B218701F431D6E0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBFF697FBEC2510180708D55931B9E9E /* NSelectViewCheckBox.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NSelectViewCheckBox";
+				INFOPLIST_FILE = "Target Support Files/NSelectViewCheckBox/ResourceBundle-NSelectViewCheckBox-NSelectViewCheckBox-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PRODUCT_NAME = NSelectViewCheckBox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		A5A113762BC096D8524A3BE42CFE2017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 297E0F38BA8CCC59AFE47906ED32DBA3 /* NSelect.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NSelect/NSelect-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NSelect/NSelect-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NSelect/NSelect.modulemap";
+				PRODUCT_MODULE_NAME = NSelect;
+				PRODUCT_NAME = NSelect;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AAF742A4D7FEF4A31D123CB51A089920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBFF697FBEC2510180708D55931B9E9E /* NSelectViewCheckBox.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NSelectViewCheckBox";
+				INFOPLIST_FILE = "Target Support Files/NSelectViewCheckBox/ResourceBundle-NSelectViewCheckBox-NSelectViewCheckBox-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PRODUCT_NAME = NSelectViewCheckBox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		AB47C2AF5950D1E2F39CDBF789BD400B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C322354E7834D3EA10595BC45A0DE31 /* Nimble.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Nimble/Nimble-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Nimble/Nimble-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Nimble/Nimble.modulemap";
+				PRODUCT_MODULE_NAME = Nimble;
+				PRODUCT_NAME = Nimble;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B2FEDB2E6B98245CD59C190C7D1C1E2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 381CDB20F877396A8A815936AC0BD122 /* Pods-NSelectViewCheckBox_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NSelectViewCheckBox_Tests/Pods-NSelectViewCheckBox_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NSelectViewCheckBox_Tests/Pods-NSelectViewCheckBox_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D75904FE85112E0506A328AC26A56166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 928B5498C305DB1DF8671D00CA42D48E /* UIRadioButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UIRadioButton/UIRadioButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIRadioButton/UIRadioButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIRadioButton/UIRadioButton.modulemap";
+				PRODUCT_MODULE_NAME = UIRadioButton;
+				PRODUCT_NAME = UIRadioButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E041FF0DB0F50DCDF9CD768ABDD90489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 297E0F38BA8CCC59AFE47906ED32DBA3 /* NSelect.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NSelect/NSelect-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NSelect/NSelect-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NSelect/NSelect.modulemap";
+				PRODUCT_MODULE_NAME = NSelect;
+				PRODUCT_NAME = NSelect;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E5E3B10BB96A481C4A30BE9ACD4E7E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4D995C4DEAF4777A64C459E80A69FB1 /* UICheckbox.Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/UICheckbox.Swift";
+				INFOPLIST_FILE = "Target Support Files/UICheckbox.Swift/ResourceBundle-UICheckbox-UICheckbox.Swift-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = UICheckbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BB00A6BE7352AD156D0FF52DB618C58 /* Build configuration list for PBXNativeTarget "NSelectViewCheckBox-NSelectViewCheckBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAF742A4D7FEF4A31D123CB51A089920 /* Debug */,
+				8C62845D2D590A41B218701F431D6E0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E8C83355CFF95DEFC151A7B1353CFF0 /* Build configuration list for PBXNativeTarget "UICheckbox.Swift-UICheckbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5E3B10BB96A481C4A30BE9ACD4E7E81 /* Debug */,
+				73091D5AB054F617558E9D403CA30A88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		373BBF4C9B194B7C827DD216E957D2B6 /* Build configuration list for PBXNativeTarget "UIRadioButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10CAADE6ADEAA7F02A96DBED35AA4E02 /* Debug */,
+				D75904FE85112E0506A328AC26A56166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75EFB0A0AA780C2107BB48AB633BCD5C /* Build configuration list for PBXNativeTarget "NSelectViewCheckBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DF05E3C21BE6C8FBE6DCB2F4E842A98 /* Debug */,
+				78EEF7DDE88A11A524D98E784A78D983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AC65E53333ACA93EEB1D8EBAB58CBB6 /* Build configuration list for PBXNativeTarget "Nimble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB47C2AF5950D1E2F39CDBF789BD400B /* Debug */,
+				435FEBAA4BD58A4EEF37A88786225C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A482E8F0F5BEDCE177543007D23A5736 /* Build configuration list for PBXNativeTarget "Quick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79250BA165394D8BB97D00EB8FA399F4 /* Debug */,
+				301FE9FE0194BECAB407F02A00B1D130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6E3EACEE32C421F3816744B1E4720A1 /* Build configuration list for PBXNativeTarget "NSelect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E041FF0DB0F50DCDF9CD768ABDD90489 /* Debug */,
+				A5A113762BC096D8524A3BE42CFE2017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6F15F55BE91F2326A2266985EB0D2FF /* Build configuration list for PBXNativeTarget "Pods-NSelectViewCheckBox_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				492DD7D5C68F7AC0159A1C6845C34790 /* Debug */,
+				B2FEDB2E6B98245CD59C190C7D1C1E2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8A1D1EE227180921AC269CB16504138 /* Build configuration list for PBXNativeTarget "UICheckbox.Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EBE926DE4AD126A545C327FF73FDF0A /* Debug */,
+				2B97AAEB7D1FDE6D4B07BF670C62E4BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E980835EA03F8E0830504BEC05FC9B95 /* Build configuration list for PBXNativeTarget "Pods-NSelectViewCheckBox_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				593DE36A7A461E4B2553B274A91CCAF3 /* Debug */,
+				38CE653718EF394C2A76CC1EF7500AC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
