@@ -72,7 +72,7 @@ public class NSelectViewCheckBox: UIView, NSelectView {
         let th = self.titleLabel.frame.height
         
         let ch = CGFloat( ceil (  CGFloat(backing.options.count) / itemsPerRow ) * rowSize )
-        let hh = 8 + th + 8 + 1 + ch
+        let hh = 8 + th + 8 + 1 + ch + (50/2)
         return CGSize(width: 300, height: hh)
     }
     
@@ -134,18 +134,9 @@ extension NSelectViewCheckBox: UICollectionViewDelegateFlowLayout {
     
     public func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
-        var size = backing.options[indexPath.item].size(withAttributes: nil)
-        
-        let leading: CGFloat = 0
-        let radioButtonWidth: CGFloat = 30.0
-        let space: CGFloat = 8.0
-        let labelWidth: CGFloat = self.frame.size.width * 0.25  //size.width * 2.0
-        let trailing: CGFloat = 8.0
-        
-        size.width = leading + radioButtonWidth + space + labelWidth + trailing
-        size.height = size.height + 20
-        
-        return size
+        let w = self.collectionView.frame.size.width * 0.4
+        let h = CGFloat(50)
+        return CGSize(width: w, height: h)
     }
     
     
@@ -157,3 +148,4 @@ extension NSelectViewCheckBox: UICollectionViewDelegateFlowLayout {
         return 2
     }
 }
+
