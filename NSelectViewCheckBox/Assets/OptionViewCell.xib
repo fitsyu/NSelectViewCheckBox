@@ -24,8 +24,9 @@
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fnj-sR-8zP" customClass="UICheckbox" customModule="UICheckbox_Swift">
+                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fnj-sR-8zP" customClass="UICheckbox" customModule="UICheckbox_Swift">
                         <rect key="frame" x="0.0" y="21" width="30" height="30"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstAttribute="width" secondItem="Fnj-sR-8zP" secondAttribute="height" id="FI3-lA-1D9"/>
                             <constraint firstAttribute="width" constant="30" id="p2a-zc-6Eh"/>
@@ -43,6 +44,9 @@
                             </userDefinedRuntimeAttribute>
                             <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
                                 <color key="value" red="0.29510438439999997" green="0.65674859289999998" blue="0.91768151519999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="padding">
+                                <real key="value" value="1"/>
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </button>

@@ -11,17 +11,21 @@ import NSelect
 import NSelectViewCheckBox
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var buttonPrint: UIButton!
+    
+    var sortQ: NSelect   = NSelect()
+    var filterQ: NSelect = NSelect()
 
     override func viewDidLoad() {
         super.viewDidLoad()
      
         
         // === single ===
-        let sortQ = NSelect()
         sortQ.title = "Sort by"
         sortQ.mode = .single
         sortQ.options = ["Distance", "Cheapest", "Availability"]
-        sortQ.defaultSelections = ["Jarak"]
+        sortQ.defaultSelections = ["Distance"]
         
         let height = 30+CGFloat(30 * sortQ.options.count)
         let frame = CGRect(x: 8, y: 50, width: view.frame.width-16, height: height)
@@ -33,7 +37,6 @@ class ViewController: UIViewController {
         sortQView.present()
         
         // === multi ===
-        let filterQ = NSelect()
         filterQ.title = "Facilites"
         filterQ.mode  = .multiple
         filterQ.options = [ "Living room", "Trees", "Breakfast", "Supermarket", "Carport" ]
@@ -47,6 +50,14 @@ class ViewController: UIViewController {
         self.view.addSubview(filterQView)
         filterQView.present()
         
+        
+        buttonPrint.addTarget(self, action: #selector(printSelection), for: .touchUpInside)
+    }
+    
+    @objc func printSelection() {
+        dump(sortQ.selections())
+        print("===")
+        dump(filterQ.selections())
     }
 }
 
