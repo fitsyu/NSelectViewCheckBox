@@ -43,9 +43,6 @@ public class NSelectViewCheckBox: UIView, NSelectView {
         titleLabel.text = backing.title
         
         setupCollectionView()
-        
-        // show default if any
-        //  preselectDefaults()
     }
     
     func setupCollectionView() {
@@ -58,16 +55,6 @@ public class NSelectViewCheckBox: UIView, NSelectView {
         collectionView.delegate   = self
         
         collectionView.allowsMultipleSelection = (backing.mode == .multiple)
-    }
-    
-    
-    func preselectDefaults() {
-        backing.defaultSelections?.forEach {
-            if let idx = backing.options.firstIndex(of: $0) {
-                let ip = IndexPath(item: idx, section: 0)
-                collectionView.delegate?.collectionView?(collectionView, didSelectItemAt: ip)
-            }
-        }
     }
     
     public override var intrinsicContentSize: CGSize {
@@ -98,8 +85,11 @@ extension NSelectViewCheckBox: UICollectionViewDataSource {
         
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: OptionViewCell.ID, for: indexPath) as! OptionViewCell
         
+        let option   = backing.options[indexPath.item]
+        let selected = backing.selections()?.contains(option) ?? false
+        
         cell.meta = OptionViewCell.Data(title: backing.options[indexPath.item],
-                                        selected: false)
+                                        selected: selected)
         
         return cell
     }
@@ -109,26 +99,26 @@ extension NSelectViewCheckBox: UICollectionViewDataSource {
 
 extension NSelectViewCheckBox: UICollectionViewDelegate {
     
+    // Toggle the item
+    // if it has been selected before then it is going to be deselected
+    // else it is going to be get selected
     public func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         
         let option = backing.options[indexPath.item]
-        backing.select(option: option)
         
-        let cell = (collectionView.cellForItem(at: indexPath) as! OptionViewCell)
-        cell.checkBox.isSelected = true
+        let isSelected = backing.selections()?.contains(option) ?? false
         
-        delegate?.didSelect(self, item: option)
-    }
-    
-    public func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
+        if isSelected {
+            
+            backing.deselect(option: option)
+            delegate?.didDeselect(self, item: option)
+        } else {
+            
+            backing.select(option: option)
+            delegate?.didSelect(self, item: option)
+        }
         
-        let option = backing.options[indexPath.item]
-        backing.deselect(option: option)
-        
-        let cell = (collectionView.cellForItem(at: indexPath) as! OptionViewCell)
-        cell.checkBox.isSelected = false
-        
-        delegate?.didDeselect(self, item: option)
+        collectionView.reloadData()
     }
     
 }
