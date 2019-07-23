@@ -26,6 +26,12 @@ public class NSelectViewCheckBox: UIView, NSelectView {
     
     public func present() {
         
+        // clear all exisiting subviews
+        // making sure this is the only view to be added there
+        // useful for cells
+        
+        self.subviews.forEach { $0.removeFromSuperview() }
+        
         // 2
         let nib = bundle.loadNibNamed("NSelectViewCheckBox", owner: self, options: nil)
         
@@ -148,4 +154,3 @@ extension NSelectViewCheckBox: UICollectionViewDelegateFlowLayout {
         return 2
     }
 }
-
